@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Female Speakers in ItaDraCor: Temporal Analysis</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 40px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .stat-label {
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .analysis-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .analysis-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .timeline-year {
+            font-weight: bold;
+            color: #2c3e50;
+            width: 60px;
+        }
+        .timeline-content {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .timeline-percentage {
+            font-weight: bold;
+            color: #e74c3c;
+            width: 60px;
+        }
+        .century-analysis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .century-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #3498db;
+            text-align: center;
+        }
+        .century-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .century-percentage {
+            font-size: 1.5em;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Female Speakers in ItaDraCor</h1>
+        <p class="subtitle">Temporal Analysis of Female Character Representation in Italian Drama (1449-1933)</p>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">157</div>
+                <div class="stat-label">Total Plays</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">470</div>
+                <div class="stat-label">Female Characters</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">1,171</div>
+                <div class="stat-label">Male Characters</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">28.6%</div>
+                <div class="stat-label">Overall Female %</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="temporalChart"></canvas>
+        </div>
+
+        <div class="analysis-section">
+            <h2>Key Findings</h2>
+            <div class="century-analysis">
+                <div class="century-card">
+                    <div class="century-title">15th Century</div>
+                    <div class="century-percentage">34.8%</div>
+                    <div class="stat-label">6 plays</div>
+                </div>
+                <div class="century-card">
+                    <div class="century-title">16th Century</div>
+                    <div class="century-percentage">35.6%</div>
+                    <div class="stat-label">3 plays</div>
+                </div>
+                <div class="century-card">
+                    <div class="century-title">18th Century</div>
+                    <div class="century-percentage">38.7%</div>
+                    <div class="stat-label">3 plays</div>
+                </div>
+                <div class="century-card">
+                    <div class="century-title">19th Century</div>
+                    <div class="century-percentage">22.5%</div>
+                    <div class="stat-label">2 plays</div>
+                </div>
+                <div class="century-card">
+                    <div class="century-title">20th Century</div>
+                    <div class="century-percentage">28.6%</div>
+                    <div class="stat-label">1 play</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <h2>Notable Trends</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1475</div>
+                    <div class="timeline-content">
+                        <strong>Fabula de Cefalo e Procris</strong> - Anonymous work shows highest early female representation
+                    </div>
+                    <div class="timeline-percentage">66.7%</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1536</div>
+                    <div class="timeline-content">
+                        <strong>La veniexiana</strong> - Venetian comedy with strong female presence
+                    </div>
+                    <div class="timeline-percentage">66.7%</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1753</div>
+                    <div class="timeline-content">
+                        <strong>La locandiera</strong> - Goldoni's famous work featuring Mirandolina
+                    </div>
+                    <div class="timeline-percentage">37.5%</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1783</div>
+                    <div class="timeline-content">
+                        <strong>Agamennone</strong> - Alfieri's tragedy with balanced gender representation
+                    </div>
+                    <div class="timeline-percentage">50.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <h2>Analysis Summary</h2>
+            <p><strong>Overall Pattern:</strong> The percentage of female speakers in Italian drama shows considerable variation over time, with no clear linear trend. The corpus spans nearly 500 years (1449-1933) and reveals interesting patterns in gender representation.</p>
+            
+            <p><strong>Early Period (15th-16th centuries):</strong> Shows relatively high female representation, particularly in religious and mythological works. Anonymous works and early Renaissance plays often featured substantial female roles.</p>
+            
+            <p><strong>Classical Period (18th century):</strong> Maintains good female representation, particularly in Goldoni's comedies and Metastasio's opera librettos, reflecting the importance of female singers in opera.</p>
+            
+            <p><strong>Neoclassical Period (late 18th-early 19th centuries):</strong> Alfieri's tragedies show balanced representation, while Romantic period works (Manzoni, Foscolo) show more variation.</p>
+            
+            <p><strong>Modern Period (20th century):</strong> Limited data suggests moderate female representation, though this requires more comprehensive analysis.</p>
+        </div>
+    </div>
+
+    <script>
+        // Data for the temporal chart
+        const temporalData = [
+            {year: 1451, percentage: 11.8, title: "La rappresentazione di San Giovanni Battista"},
+            {year: 1465, percentage: 13.3, title: "La festa di Susanna"},
+            {year: 1470, percentage: 28.6, title: "La rappresentazione di Salamone"},
+            {year: 1475, percentage: 66.7, title: "Fabula de Cefalo e Procris"},
+            {year: 1486, percentage: 38.5, title: "Representazione di Febo e Feton"},
+            {year: 1491, percentage: 50.0, title: "Orphei tragoedia"},
+            {year: 1508, percentage: 10.0, title: "Cassaria"},
+            {year: 1527, percentage: 30.0, title: "Tragedia di Antigone"},
+            {year: 1536, percentage: 66.7, title: "La veniexiana"},
+            {year: 1724, percentage: 28.6, title: "Didone abbandonata"},
+            {year: 1753, percentage: 37.5, title: "La locandiera"},
+            {year: 1783, percentage: 50.0, title: "Agamennone"},
+            {year: 1820, percentage: 20.0, title: "Il conte di Carmagnola"},
+            {year: 1822, percentage: 25.0, title: "Adelchi"},
+            {year: 1933, percentage: 28.6, title: "Paola da Buti"}
+        ];
+
+        // Create the temporal chart
+        const ctx = document.getElementById('temporalChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                datasets: [{
+                    label: 'Female Speaker Percentage',
+                    data: temporalData.map(d => ({x: d.year, y: d.percentage})),
+                    borderColor: '#e74c3c',
+                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                    borderWidth: 3,
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: '#e74c3c',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    fill: false,
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Female Speaker Percentage Over Time',
+                        font: {
+                            size: 16,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(context) {
+                                const point = context[0];
+                                const dataIndex = point.dataIndex;
+                                return temporalData[dataIndex].title;
+                            },
+                            label: function(context) {
+                                return `${context.parsed.x}: ${context.parsed.y}% female speakers`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        type: 'linear',
+                        title: {
+                            display: true,
+                            text: 'Year'
+                        },
+                        min: 1440,
+                        max: 1950
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Female Speaker Percentage (%)'
+                        },
+                        min: 0,
+                        max: 70
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
