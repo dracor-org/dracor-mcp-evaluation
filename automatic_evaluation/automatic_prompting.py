@@ -164,7 +164,7 @@ def perform_request_runs(messages_info:list[dict[str, Any]], client: anthropic.A
                          model: str, max_tokens: int, output_dir:Path):
     # set number of runs
     start = start_idx
-    end = start_idx + num_runs + 1
+    end = start_idx + num_runs
 
     if not output_dir.exists():
         output_dir.mkdir()
