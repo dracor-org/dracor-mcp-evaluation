@@ -18,6 +18,11 @@ STRING_SCHEMA = {
     "minLength": 1 
 }
 
+class InvalidIdError(Exception):
+    def __init__(self, message):            
+        super().__init__(message)
+            
+
 
 def get_dracor_corpora_status():
     dracor = DraCorAPI()
@@ -201,10 +206,25 @@ def perform_request_runs(messages_info:list[dict[str, Any]], client: anthropic.A
             with open(fp_extracted, 'w') as result_out:
                 json.dump(extracted_response, result_out)
 
+def filter_questions(questions, ids_to_keep: list[str]):
+    """
+    Filter list of questions by user-defined list of ids.
+    Assert the list of keys match the question dict["ID"].
+    return list of question which match the IDs in the list.
+    """
+    question_id_question = {entry["ID"]:entry for entry in questions}
+    filtered_questions = []
+    for question_id in ids_to_keep:
+        if question_id not in question_id_question:
+            raise InvalidIdError(f"The ID {question_id} is not in the question list. Aborting...") 
+        else:
+            filtered_questions.append(question_id_question[question_id])
+    return filtered_questions
+
 
 def _parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--question_file', required=True)
+    parser.add_argument('--question-file', required=True)
     parser.add_argument('--url', default="https://dev.dracor.org/")
     parser.add_argument('--claude-model', default="claude-sonnet-4-20250514")
     parser.add_argument('--max-tokens', default="1024", type=int)
@@ -213,9 +233,8 @@ def _parse_args():
     parser.add_argument('--document', default=True, type=bool)
     parser.add_argument('--document-dir', default=Path().cwd(), type=Path)
     parser.add_argument('--output-dir', default=Path("results"), type=Path)
+    parser.add_argument('--question-list', nargs='*')
     return parser.parse_args()
-
-
 
 
 def main():
@@ -223,6 +242,11 @@ def main():
 
     with open(args.question_file) as question_json:
         questions = json.load(question_json)
+
+    if args.question_list:
+        filtered_questions = filter_questions(questions, args.question_list)
+    else:
+        filtered_questions = questions 
 
     # set client 
     client = anthropic.Anthropic()
@@ -248,7 +272,7 @@ def main():
         }
     }
 
-    messages = create_messsages(questions, validation_data)
+    messages = create_messsages(filtered_questions, validation_data)
     
     if args.document:
         document_dracor_status(args.url, args.start_index, args.number_of_runs,args.claude_model,args.max_tokens)
