@@ -184,7 +184,8 @@ def perform_request_runs(messages_info:list[dict[str, Any]], client: anthropic.A
                     json.dump(response.to_dict(), result_out)
 
                 extracted_response = process_response(response, message_info["schema"])
-            except:
+            except Exception as e:
+                print(f"An exception of type {type(e).__name__} occurred:\n{e}")
                 response = ""
                 extracted_response = {
                     "success": False,
@@ -192,7 +193,8 @@ def perform_request_runs(messages_info:list[dict[str, Any]], client: anthropic.A
                     "response": "",
                     "tools_used": [],
                     "tool_chain": [],
-                    "usage_infos":{} 
+                    "usage_infos":{},
+                    "exception": type(e).__name__
                 }
 
             # add metdata
