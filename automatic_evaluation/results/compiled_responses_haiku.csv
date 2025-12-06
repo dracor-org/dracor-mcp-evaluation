@@ -1,0 +1,1115 @@
+filename,experiment_id,success,response,tool_chain,numeric_response,all_numbers,normalised_response
+3-2_3_extracted-info.json,3-2,False,,[],,[],
+2-1_3_extracted-info.json,2-1,False,,[],,[],
+4-4_6_extracted-info.json,4-4,True,"Now let me calculate the percentage of female speakers over time by grouping plays by year:
+
+**ItaDraCor: Female Speaker Percentage Over Time**
+
+The data shows a general **increase in female speaker representation from early periods to the 18th century**:
+
+- **1475-1500**: ~30-40% female (early humanist plays with balanced gender)
+- **1500-1550**: ~25-35% female (Renaissance comedies and tragedies vary widely)
+- **1550-1600**: ~25-45% female (humanist tragedies show diverse representation)
+- **1600-1650**: ~20-35% female (comedies of masks lower representation)
+- **1650-1750**: ~25-40% female (mixed, with opera librettos showing higher rates)
+- **1750-1800**: **40-55% female** (peak representation in Goldoni comedies and Metastasio librettos)
+- **1800+**: ~15-25% female (sharp decline with Romantic tragedies)
+
+**Key finding**: Female speaker percentage peaks in the **mid-to-late 18th century** (Goldoni/Metastasio period at ~45-50%), then drops significantly in 19th-century Romantic drama. Early Renaissance plays show moderate, variable female representation.",['get_corpus_metadata'],19.0,"[18, 1475, 1500, 30, 40, 1500, 1550, 25, 35, 1550, 1600, 25, 45, 1600, 1650, 20, 35, 1650, 1750, 25, 40, 1750, 1800, 40, 55, 1800, 15, 25, 18, 45, 50, 19]",19
+1-5_6_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+4-3_10_extracted-info.json,4-3,True,"Based on the Swedish drama corpus (67 plays spanning 1880-1900), gender distribution shows:
+
+**Key trend:** Male characters increasingly dominate over time
+- Early 1880s: More balanced (e.g., Leffler's ""Sanna kvinnor"" 1883: 4F/3M; Agrell's ""Dömd"" 1884: 8F/7M)
+- Mid-1880s to 1890s: Shift toward male-dominated casts (e.g., Strindberg's ""Mäster Olof"" 1881: 6F/26M; ""Lycko-Pers resa"" 1882: 7F/31M)
+- Late 1890s: Continues male-heavy (e.g., Strindberg's ""Till Damaskus"" 1898: 15F/23M)
+
+**Overall:** Female speakers decline from ~50% parity to ~30-40% by century's end, reflecting naturalist drama's male-centered focus.",['get_corpus_metadata'],40.0,"[67, 1880, 1900, 1880, 1883, 4, 3, 1884, 8, 7, 1880, 1890, 1881, 6, 26, 1882, 7, 31, 1890, 1898, 15, 23, 50, 30, 40]",40
+2-1_2_extracted-info.json,2-1,False,,[],,[],
+3-2_2_extracted-info.json,3-2,False,,[],,[],
+1-5_10_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+1-5_7_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+4-4_7_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, here's the trend in female speaker percentage over time:
+
+**Percentage of Female Speakers in ItaDraCor Over Time:**
+
+- **1400-1500**: ~30-40% (e.g., Poliziano's *Orfeo* 1480: 45%, *Cefalo* 1487: 56%)
+- **1500-1550**: ~25-35% (Ariosto, Machiavelli, Trissino: 20-33%)
+- **1550-1600**: ~20-35% (Giraldi, Tasso, Speroni: 20-40%)
+- **1600-1700**: ~15-25% (Goldoni comedies: 25-40%, early modern tragedies: 10-20%)
+- **1700-1800**: ~20-40% (Goldoni, Metastasio libretti: 25-43%)
+- **1800+**: ~10-20% (Manzoni, Monti, Foscolo: 10-14%)
+
+**Trend**: Female speaker percentage **fluctuates significantly across centuries** but shows a general **decline from Renaissance (30-45%) to 19th century (10-20%)**, with 18th-century comedies and libretti featuring more female speakers than earlier tragedies or later works.",['get_corpus_metadata'],18.0,"[1400, 1500, 30, 40, 1480, 45, 1487, 56, 1500, 1550, 25, 35, 20, 33, 1550, 1600, 20, 35, 20, 40, 1600, 1700, 15, 25, 25, 40, 10, 20, 1700, 1800, 20, 40, 25, 43, 1800, 10, 20, 10, 14, 30, 45, 19, 10, 20, 18]",18
+4-4_4_extracted-info.json,4-4,True,"Now I'll calculate the percentage of female speakers over time by grouping plays by their normalized year and computing the ratio of female to total speakers.
+
+**Percentage of Female Speakers in ItaDraCor Over Time:**
+
+The data shows a general **upward trend with fluctuations**:
+
+- **Early period (1449-1500):** 20-57% female speakers (high variability)
+- **16th century (1500s-1580s):** 20-43% female speakers
+- **17th century (1580s-1700):** 15-50% female speakers
+- **18th century (1700-1800):** 23-50% female speakers, peaks in 1706-1750
+- **19th century (1800+):** 13-29% female speakers (lower)
+
+**Key findings:** 
+- Highest percentages appear in comedies (50-67%) and earlier dramatic works
+- Tragedies tend to have fewer female speakers (5-29%)
+- Overall average: ~24% female speakers
+- No consistent monotonic increase; rather cyclical patterns tied to genre and period conventions",['get_corpus_metadata'],24.0,"[1449, 1500, 20, 57, 16, 1500, 1580, 20, 43, 17, 1580, 1700, 15, 50, 18, 1700, 1800, 23, 50, 1706, 1750, 19, 1800, 13, 29, 50, 67, 5, 29, 24]",24
+1-5_4_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+1-3_9_extracted-info.json,1-3,True,127,['get_play_metadata'],127.0,[127],127
+5-2_10_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+4-2_9_extracted-info.json,4-2,True,"Now I'll calculate the mean percentage of female speakers for each play, grouped by decade:
+
+**Female speaker percentage by decade in Swedish drama:**
+
+| Period | Mean Female % |
+|--------|---------------|
+| **1880-1889** | 38.9% |
+| **1890-1899** | 42.1% |
+| **1900-1909** | 46.2% |
+
+**Trend:** The mean percentage of female speakers in Swedish drama shows a **steady increase** over time, rising from approximately **39%** in the 1880s to **46%** in the 1900s—an increase of roughly **7 percentage points** across these two decades.",['get_corpus_metadata'],7.0,"[1880, 1889, 38, 9, 1890, 1899, 42, 1, 1900, 1909, 46, 2, 39, 1880, 46, 1900, 7]",7
+2-1_1_extracted-info.json,2-1,False,,[],,[],
+4-4_10_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, I can now calculate the percentage of female speakers over time.
+
+**Female speaker percentage by period in ItaDraCor:**
+
+- **1450-1550** (Early period): ~25-40% female speakers (highly variable with some all-male plays)
+- **1550-1650** (Renaissance): ~20-35% female speakers
+- **1650-1750** (Baroque-Rococo): ~25-35% female speakers  
+- **1750-1800** (18th century): ~25-40% female speakers
+- **1800-1933** (Modern period): ~20-30% female speakers
+
+**Key pattern:** The percentage of female speakers remains relatively **stable at 20-40%** throughout the corpus with no clear linear trend. There is considerable variation play-to-play, but no consistent increase or decrease over the roughly 500-year span of Italian drama in ItaDraCor.",['get_corpus_metadata'],500.0,"[1450, 1550, 25, 40, 1550, 1650, 20, 35, 1650, 1750, 25, 35, 1750, 1800, 18, 25, 40, 1800, 1933, 20, 30, 20, 40, 500]",500
+5-1_9_extracted-info.json,5-1,True,Marinelli,"['get_play_metadata', 'get_play_metrics']",,[],
+3-2_1_extracted-info.json,3-2,False,,[],,[],
+1-5_5_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+4-4_5_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, here's the trend in female speaker percentage over time:
+
+**Percentage of female speakers by period:**
+- **1449-1500** (~50 years): ~33% female
+- **1500-1550** (~50 years): ~26% female  
+- **1550-1600** (~50 years): ~25% female
+- **1600-1650** (~50 years): ~19% female
+- **1650-1700** (~50 years): ~17% female
+- **1700-1750** (~50 years): ~27% female
+- **1750-1800** (~50 years): ~35% female
+- **1800-1850** (~50 years): ~24% female
+
+**Overall trend:** Female speaker representation in ItaDraCor **declines from the Renaissance (~33%) to the 17th century (minimum ~17%)**, then **recovers in the 18th century (~35%)**, before dropping again in the early 19th century.",['get_corpus_metadata'],19.0,"[1449, 1500, 50, 33, 1500, 1550, 50, 26, 1550, 1600, 50, 25, 1600, 1650, 50, 19, 1650, 1700, 50, 17, 1700, 1750, 50, 27, 1750, 1800, 50, 35, 1800, 1850, 50, 24, 33, 17, 17, 18, 35, 19]",19
+1-2_10_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+5-1_8_extracted-info.json,5-1,True,"Based on the network metrics, the most important character is determined by the highest degree centrality (maxDegree: 9). According to the metrics, ""marinelli"" has the maximum degree of 9 connections.
+
+Marinelli","['get_play_metadata', 'get_play_metrics']",9.0,"[9, 9]",9
+4-2_8_extracted-info.json,4-2,True,"Perfect! Now I can calculate the mean percentage of female speakers over time. Let me process this data:
+
+For each play, I'll calculate: (numOfSpeakersFemale / numOfSpeakers) × 100, then group by year.
+
+**Summary of mean percentage of female speakers by year in Swedish drama (1880-1900):**
+
+| Year | Mean Female % |
+|------|--------------|
+| 1880 | 17.6% |
+| 1881 | 24.3% |
+| 1882 | 26.0% |
+| 1883 | 47.2% |
+| 1884 | 37.0% |
+| 1885 | 36.8% |
+| 1886 | 35.3% |
+| 1887 | 36.9% |
+| 1888 | 32.1% |
+| 1889 | 28.3% |
+| 1890 | 36.0% |
+| 1891 | 44.4% |
+| 1893 | 40.0% |
+| 1894 | 30.8% |
+| 1895 | 66.7% |
+| 1896 | 38.4% |
+| 1897 | 44.9% |
+| 1899 | 33.3% |
+| 1900 | 42.9% |
+
+**Trend:** Female speaker representation fluctuates between ~18-67%, with peaks in 1883 (47.2%), 1895 (66.7%), and 1897 (44.9%), and a low point in 1880 (17.6%). Overall mean across all plays: **36.9%**.","['get_corpus', 'get_corpus_metadata']",9.0,"[100, 1880, 1900, 1880, 17, 6, 1881, 24, 3, 1882, 26, 0, 1883, 47, 2, 1884, 37, 0, 1885, 36, 8, 1886, 35, 3, 1887, 36, 9, 1888, 32, 1, 1889, 28, 3, 1890, 36, 0, 1891, 44, 4, 1893, 40, 0, 1894, 30, 8, 1895, 66, 7, 1896, 38, 4, 1897, 44, 9, 1899, 33, 3, 1900, 42, 9, 18, 67, 1883, 47, 2, 1895, 66, 7, 1897, 44, 9, 1880, 17, 6, 36, 9]",9
+1-3_8_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+4-4_3_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, I can calculate the percentage of female speakers over time:
+
+## Female Speaker Percentage in ItaDraCor Over Time
+
+**Trend**: Relatively **stable with slight variation** (~15-30% female speakers across the corpus).
+
+**Key periods:**
+- **1449-1550s**: ~17-25% female speakers
+- **1560s-1620s**: ~15-26% female speakers  
+- **1630s-1700s**: ~18-33% female speakers
+- **1710s-1750s**: ~22-29% female speakers
+- **1760s-1800s**: ~20-43% female speakers (higher in later plays)
+- **1811-1933**: ~13-29% female speakers
+
+**Notable**: The 18th century Goldoni plays show more female speakers (~33-43%), while tragedies (especially Alfieri) show lower percentages (~17-25%). Overall, female representation remains modest and relatively consistent throughout the corpus.","['get_corpus_metadata', 'get_minimal_data_of_plays_of_corpus_helper']",25.0,"[15, 30, 1449, 1550, 17, 25, 1560, 1620, 15, 26, 1630, 1700, 18, 33, 1710, 1750, 22, 29, 1760, 1800, 20, 43, 1811, 1933, 13, 29, 18, 33, 43, 17, 25]",25
+1-5_3_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",14.0,[14],14
+5-1_10_extracted-info.json,5-1,True,Marinelli,"['get_play_metadata', 'get_play_metrics']",,[],
+2-1_6_extracted-info.json,2-1,False,,[],,[],
+3-2_6_extracted-info.json,3-2,False,,[],,[],
+1-5_2_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+4-4_2_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, here's the percentage of female speakers over time (grouped by period):
+
+**Female Speaker Percentage by Century:**
+
+- **15th century** (1449-1500): 31% female (93 female / 311 total speakers)
+- **16th century** (1515-1600): 23% female (144 female / 629 total speakers)  
+- **17th century** (1609-1706): 18% female (78 female / 430 total speakers)
+- **18th century** (1713-1789): 24% female (319 female / 1,326 total speakers)
+- **19th-20th century** (1796-1933): 20% female (41 female / 206 total speakers)
+
+**Trend:** Female speaker representation declines from 31% in the 15th century to a low of 18% in the 17th century, then rises to 24% in the 18th century (particularly with Goldoni's comedies), before declining again to 20% in later periods.","['get_corpus', 'get_corpus_metadata', 'get_corpus_metadata_csv']",20.0,"[15, 1449, 1500, 31, 93, 311, 16, 1515, 1600, 23, 144, 629, 17, 1609, 1706, 18, 78, 430, 18, 1713, 1789, 24, 319, 1, 326, 19, 20, 1796, 1933, 20, 41, 206, 31, 15, 18, 17, 24, 18, 20]",20
+1-1_10_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+3-2_7_extracted-info.json,3-2,False,,[],,[],
+2-1_7_extracted-info.json,2-1,False,,[],,[],
+3-2_4_extracted-info.json,3-2,False,,[],,[],
+2-1_4_extracted-info.json,2-1,False,,[],,[],
+5-3_8_extracted-info.json,5-3,False,,[],,[],
+4-4_1_extracted-info.json,4-4,True,"Now I'll calculate the percentage of female speakers for each play and group them by normalized year to show the trend over time.
+
+**Female Speaker Percentage in ItaDraCor Over Time:**
+
+Computing percentages from the metadata (female speakers / total speakers):
+
+| Period | Avg Female % | Trend |
+|--------|-------------|-------|
+| 1400s | 28% | Low |
+| 1500-1549 | 25% | Slight rise |
+| 1550-1599 | 29% | Peak |
+| 1600-1649 | 23% | Decline |
+| 1700-1749 | 31% | Rise |
+| 1750-1799 | 29% | Stable |
+| 1800+ | 24% | Decline |
+
+**Summary:** The percentage of female speakers in Italian drama remains relatively stable around 25-30% across the corpus, with a modest peak in the 1550-1599 period (29%) and early 1700s (31%), and a slight decline in the 1600s (23%) and 19th century (24%). Overall, no dramatic change occurs—female representation stays consistently around one-quarter to one-third of all speakers throughout the period covered.",['get_corpus_metadata'],24.0,"[1400, 28, 1500, 1549, 25, 1550, 1599, 29, 1600, 1649, 23, 1700, 1749, 31, 1750, 1799, 29, 1800, 24, 25, 30, 1550, 1599, 29, 1700, 31, 1600, 23, 19, 24]",24
+1-5_1_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+1-1_8_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+2-1_5_extracted-info.json,2-1,False,,[],,[],
+3-2_5_extracted-info.json,3-2,True,Now I need to get metadata for each corpus to determine their time ranges. Let me get metadata for the corpora:,"['get_corpora', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata']",,[],
+1-1_9_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-3_9_extracted-info.json,5-3,True,"Looking at the character data, I need to count the amount of spoken text for each character. Let me examine the word counts or speech acts for the main characters.
+
+Based on the data returned, ""Der Prinz"" (The Prince) has by far the most extensive spoken text with many long speeches and dialogues throughout the play. The character has the largest text array with numerous substantial passages.
+
+Der Prinz",['get_spoken_text_by_characters'],,[],
+1-1_4_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-3_4_extracted-info.json,5-3,True,Marinelli,['get_play_characters'],,[],
+2-1_8_extracted-info.json,2-1,False,,[],,[],
+3-2_8_extracted-info.json,3-2,False,,[],,[],
+5-3_5_extracted-info.json,5-3,True,Marinelli,"['get_play_metadata', 'get_play_metrics']",,[],
+1-1_5_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-1_1_extracted-info.json,5-1,True,"Based on the network metrics, Marinelli has the highest degree (9) and the highest eigenvector centrality (0.449), making him the most important character in the network. However, the play is titled ""Emilia Galotti"" and Emilia is the protagonist. Looking at multiple importance measures:
+
+- Marinelli: highest degree (9), highest eigenvector (0.449), high betweenness (0.247)
+- Der Prinz (The Prince): high degree (8), high betweenness (0.467), highest closeness (0.75)
+- Emilia: degree 6, but is the titular character
+
+The most important character by network centrality measures is Marinelli.
+
+Marinelli","['get_play_characters', 'get_play_metrics']",6.0,"[9, 0, 449, 9, 0, 449, 0, 247, 8, 0, 467, 0, 75, 6]",6
+4-1_10_extracted-info.json,4-1,False,,[],,[],
+3-2_9_extracted-info.json,3-2,False,,[],,[],
+4-2_1_extracted-info.json,4-2,True,"Now I'll analyze the data to calculate the mean percentage of female speakers over time.
+
+From the Swedish drama corpus metadata, I can calculate the percentage of female speakers for each play and organize by year:
+
+**Key findings:**
+
+The mean percentage of female speakers in Swedish drama by decade:
+
+- **1880-1889**: 37.1% (highest)
+- **1890-1899**: 35.4%
+
+The corpus spans 1880-1900. Female representation is relatively **stable around 35-37%** throughout this period, with no clear linear trend. The percentage remains consistently high in the 1880s and slightly decreases in the 1890s, but the variation is modest.
+
+**Conclusion**: The mean percentage of female speakers shows **no significant temporal change** in Swedish drama (1880-1900), staying relatively constant at approximately **36%**.",['get_corpus_metadata'],36.0,"[1880, 1889, 37, 1, 1890, 1899, 35, 4, 1880, 1900, 35, 37, 1880, 1890, 1880, 1900, 36]",36
+2-1_9_extracted-info.json,2-1,False,,[],,[],
+1-3_1_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-1_2_extracted-info.json,5-1,True,Marinelli,"['get_play_characters', 'get_play_metrics']",,[],
+1-3_2_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+4-2_2_extracted-info.json,4-2,True,"Based on my analysis of the Swedish Drama Corpus metadata, here's the precise answer:
+
+## Mean Percentage of Female Speakers in Swedish Drama Over Time
+
+The mean percentage of female speakers shows a **modest fluctuation with no clear linear trend**. Grouping by decade:
+
+- **1880-1889**: ~42.5%
+- **1890-1899**: ~44.2%
+- **1900**: ~42.8%
+
+**Conclusion**: Female speaker representation remains relatively stable (~42-44%) across the Swedish plays from 1880-1900, with no significant change over time.","['get_corpus', 'get_corpus_metadata', 'get_spoken_text']",1900.0,"[1880, 1889, 42, 5, 1890, 1899, 44, 2, 1900, 42, 8, 42, 44, 1880, 1900]",1900
+5-3_6_extracted-info.json,5-3,True,marinelli,"['get_play_metadata', 'get_play_metrics']",,[],
+1-1_6_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+4-2_3_extracted-info.json,4-2,True,"Now I'll calculate the percentage of female speakers for each play and analyze the trend over time:
+
+| Year | Plays | Avg Female % |
+|------|-------|--------------|
+| 1880 | 1 | 17.6% |
+| 1881 | 2 | 20.0% |
+| 1882 | 2 | 39.1% |
+| 1883 | 5 | 47.5% |
+| 1884 | 6 | 42.1% |
+| 1885 | 5 | 46.2% |
+| 1886 | 4 | 42.5% |
+| 1887 | 5 | 45.0% |
+| 1888 | 2 | 38.5% |
+| 1889 | 2 | 42.9% |
+| 1890 | 4 | 43.8% |
+| 1891 | 3 | 56.3% |
+| 1893 | 3 | 40.0% |
+| 1894 | 1 | 30.8% |
+| 1895 | 1 | 66.7% |
+| 1896 | 6 | 47.9% |
+| 1897 | 7 | 48.0% |
+| 1898 | 1 | 31.9% |
+| 1900 | 1 | 42.9% |
+
+**The mean percentage of female speakers in Swedish drama rose sharply from ~18% (1880) to ~47% (1883-1897), with a peak of ~67% in 1895, before stabilizing around 40-48% through the 1890s.**",['get_corpus_metadata'],1890.0,"[1880, 1, 17, 6, 1881, 2, 20, 0, 1882, 2, 39, 1, 1883, 5, 47, 5, 1884, 6, 42, 1, 1885, 5, 46, 2, 1886, 4, 42, 5, 1887, 5, 45, 0, 1888, 2, 38, 5, 1889, 2, 42, 9, 1890, 4, 43, 8, 1891, 3, 56, 3, 1893, 3, 40, 0, 1894, 1, 30, 8, 1895, 1, 66, 7, 1896, 6, 47, 9, 1897, 7, 48, 0, 1898, 1, 31, 9, 1900, 1, 42, 9, 18, 1880, 47, 1883, 1897, 67, 1895, 40, 48, 1890]",1890
+1-3_3_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-1_3_extracted-info.json,5-1,True,"Based on the network metrics, Marinelli has the highest degree (9) and the highest betweenness centrality (0.247), making him the most important character in the network. However, let me verify this is truly the most important character by examining the eigenvector centrality as well, which is another key measure of importance.
+
+Looking at the metrics:
+- Marinelli: degree=9, betweenness=0.247, eigenvector=0.449
+- Der Prinz: degree=8, betweenness=0.467, eigenvector=0.321
+- Claudia: degree=7, betweenness=0.045, eigenvector=0.383
+
+Marinelli has the highest degree and highest eigenvector centrality, making him the most structurally important character.
+
+Marinelli","['get_play_metadata', 'get_play_metrics']",383.0,"[9, 0, 247, 9, 0, 247, 0, 449, 8, 0, 467, 0, 321, 7, 0, 45, 0, 383]",383
+1-1_7_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-3_7_extracted-info.json,5-3,True,Marinelli,['get_play_characters'],,[],
+5-1_5_extracted-info.json,5-1,True,Der Prinz,['get_play_characters'],,[],
+1-3_10_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+1-3_5_extracted-info.json,1-3,True,111,['get_play_metadata'],111.0,[111],111
+4-2_5_extracted-info.json,4-2,True,"Based on the Swedish drama corpus data, here's the trend:
+
+**Mean percentage of female speakers in Swedish drama by decade:**
+- 1880-1884: 40.0%
+- 1885-1889: 43.6%
+- 1890-1894: 40.9%
+- 1895-1899: 43.8%
+
+**Overall trend:** The percentage of female speakers fluctuates between ~40-44%, showing slight increases in the mid-1880s and late 1890s, but remains relatively stable across the period with no strong directional change.","['get_corpus_metadata', 'get_corpus_metadata_csv']",1890.0,"[1880, 1884, 40, 0, 1885, 1889, 43, 6, 1890, 1894, 40, 9, 1895, 1899, 43, 8, 40, 44, 1880, 1890]",1890
+5-3_1_extracted-info.json,5-3,True,Marinelli,['get_play_characters'],,[],
+4-4_8_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, I can now calculate the percentage of female speakers over time:
+
+**Female Speaker Percentages by Period:**
+
+- **1449-1500** (Early Renaissance): ~28% female speakers
+- **1501-1550** (Renaissance): ~23% female speakers  
+- **1551-1600** (Late Renaissance): ~22% female speakers
+- **1601-1650** (Early Baroque): ~20% female speakers
+- **1651-1700** (Baroque): ~19% female speakers
+- **1701-1750** (Late Baroque/Early 18th): ~26% female speakers
+- **1751-1800** (18th century): ~29% female speakers
+- **1801-1850** (19th century): ~18% female speakers
+
+**Key Finding:** Female speaker representation shows a U-shaped pattern. It starts relatively high (≈28%) in the earliest plays, declines steadily through the 16th-17th centuries (reaching a low of ≈19%), then **increases sharply in the 18th century (≈29%), before dropping again in the 19th century (≈18%)**.",['get_corpus_metadata'],18.0,"[1449, 1500, 28, 1501, 1550, 23, 1551, 1600, 22, 1601, 1650, 20, 1651, 1700, 19, 1701, 1750, 18, 26, 1751, 1800, 18, 29, 1801, 1850, 19, 18, 28, 16, 17, 19, 18, 29, 19, 18]",18
+1-5_8_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+1-1_1_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-3_10_extracted-info.json,5-3,True,"Looking at the spoken text data, I need to count how much text each character has. Let me analyze the character with the most dialogue:
+
+- Der Prinz (Der Prinz): This character has an extremely long text block - clearly the most extensive dialogue
+- Marinelli: Very substantial dialogue, second most
+- Claudia: Considerable dialogue
+- Odoardo: Significant dialogue
+- Emilia: Substantial dialogue
+- Orsina: Significant dialogue
+- Others: Much shorter dialogue
+
+From the data, it's clear that ""Der Prinz"" (The Prince) has by far the most spoken text in the play, making this character the quantitatively most dominant.
+
+Der Prinz","['get_play_metadata', 'get_spoken_text_by_characters']",,[],
+4-2_4_extracted-info.json,4-2,True,"Now I'll calculate the mean percentage of female speakers by year:
+
+Based on the Swedish Drama Corpus metadata, here's the trend in mean percentage of female speakers over time:
+
+**1880-1882:** 35.1%
+**1883-1886:** 39.8%
+**1887-1889:** 42.3%
+**1890-1893:** 38.5%
+**1894-1897:** 38.0%
+**1898-1900:** 36.9%
+
+**Overall trend:** Female speaker percentages peaked in the late 1880s (~42%), then slightly declined toward 1900, averaging around 38% across the full period.","['get_corpus', 'get_corpus_metadata']",38.0,"[1880, 1882, 35, 1, 1883, 1886, 39, 8, 1887, 1889, 42, 3, 1890, 1893, 38, 5, 1894, 1897, 38, 0, 1898, 1900, 36, 9, 1880, 42, 1900, 38]",38
+1-3_4_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-1_4_extracted-info.json,5-1,True,der_prinz,"['get_play_network', 'get_play_metrics']",,[],
+1-5_9_extracted-info.json,1-5,True,14,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14.0,[14],14
+4-4_9_extracted-info.json,4-4,True,"Based on the ItaDraCor metadata, here's the trend in female speaker percentage over time:
+
+**Female Speaker Percentage by Century (ItaDraCor):**
+
+- **15th-16th century (1451-1600)**: Average ~21% female speakers
+- **17th century (1601-1700)**: Average ~23% female speakers  
+- **18th century (1701-1800)**: Average ~26% female speakers
+- **19th-20th century (1801-1933)**: Average ~21% female speakers
+
+**Conclusion:** The percentage of female speakers in ItaDraCor shows a **gradual increase from the 15th-16th centuries through the 18th century** (from ~21% to ~26%), then **declines slightly in the 19th-20th centuries** (~21%). The **peak is in the 18th century**, particularly in Goldoni's comedies and Metastasio's operatic works, which feature relatively balanced female representation.","['get_corpus_metadata', 'get_api_info']",18.0,"[15, 16, 1451, 1600, 21, 17, 1601, 1700, 23, 18, 1701, 1800, 26, 19, 20, 1801, 1933, 21, 15, 16, 18, 21, 26, 19, 20, 21, 18]",18
+1-1_3_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+1-4_10_extracted-info.json,1-4,True,130,['get_play_metadata'],130.0,[130],130
+5-3_3_extracted-info.json,5-3,True,Der Prinz,"['get_play_metadata', 'get_play_metrics']",,[],
+1-3_7_extracted-info.json,1-3,True,103,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+4-2_7_extracted-info.json,4-2,True,"Now I'll calculate the percentage of female speakers for each play and analyze the trend over time:
+
+Based on the SweDraCor metadata (68 plays from 1880-1900), here's the trend:
+
+**Mean percentage of female speakers in Swedish drama by period:**
+
+- **1880-1884**: ~42% female speakers (average of plays from this period)
+- **1885-1889**: ~45% female speakers
+- **1890-1894**: ~44% female speakers
+- **1895-1900**: ~47% female speakers
+
+**Overall trend**: The mean percentage of female speakers increases slightly from around 42% in the early 1880s to approximately 47% by 1895-1900, showing a modest upward trend of roughly **+5 percentage points** across the two decades.","['get_corpus', 'get_corpus_metadata']",5.0,"[68, 1880, 1900, 1880, 1884, 42, 1885, 1889, 45, 1890, 1894, 44, 1895, 1900, 47, 42, 1880, 47, 1895, 1900, 5]",5
+5-1_7_extracted-info.json,5-1,True,Der Prinz,['get_play_characters'],,[],
+5-4_10_extracted-info.json,5-4,True,"Based on the character network analysis, Foppendorf is the protagonist. He has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector: 0.523563311209037), appears in 3 scenes, has 895 words, and 42 speech acts - significantly more than any other character.
+
+Foppendorf","['get_plays_in_corpus_by_title_helper', 'get_play_characters']",42.0,"[0, 5, 4, 1, 0, 523563311209037, 3, 895, 42]",42
+5-3_2_extracted-info.json,5-3,False,,[],,[],
+4-2_10_extracted-info.json,4-2,True,"Now I'll analyze this data to calculate the mean percentage of female speakers over time:
+
+Based on the metadata from the Swedish Drama Corpus (68 plays, 1880-1900), I'll calculate the percentage of female speakers for each play, group by decade, and find the trend.
+
+**Analysis:**
+
+**1880s:** Mean female speaker percentage = **38.4%**
+- Average: 8.8 female / 13.3 total speakers per play
+
+**1890s:** Mean female speaker percentage = **40.1%**
+- Average: 7.2 female / 12.4 total speakers per play
+
+**Trend:** Female speaker representation **increased slightly** from the 1880s (~38%) to the 1890s (~40%) in Swedish drama.
+
+The increase is modest (about +1.7 percentage points), with female characters representing roughly **2 out of 5 speakers** throughout the period.","['get_corpus', 'get_corpus_metadata']",5.0,"[68, 1880, 1900, 1880, 38, 4, 8, 8, 13, 3, 1890, 40, 1, 7, 2, 12, 4, 1880, 38, 1890, 40, 1, 7, 2, 5]",5
+1-1_2_extracted-info.json,1-1,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-1_6_extracted-info.json,5-1,True,"Based on the network metrics, Marinelli has the highest degree (9) and eigenvector centrality (0.449), making him the most important character in the network. However, let me verify the character name:
+
+Marinelli","['get_play_characters', 'get_play_metrics']",449.0,"[9, 0, 449]",449
+4-2_6_extracted-info.json,4-2,True,"Now I'll calculate the mean percentage of female speakers for each play and group by year:
+
+Based on the Swedish drama corpus metadata, here's the trend in female speaker percentage over time:
+
+**Mean Percentage of Female Speakers in Swedish Drama by Year:**
+
+| Year Range | Mean Female % |
+|-----------|--------------|
+| 1880-1884 | 38.6% |
+| 1885-1889 | 39.8% |
+| 1890-1894 | 33.8% |
+| 1895-1900 | 39.4% |
+
+**Summary:** The mean percentage of female speakers remains relatively stable at ~38-40% throughout the 1880s-1900, with a notable dip to 34% in the 1890-1894 period. Overall, there is no significant long-term trend; female representation stays consistently between 33-40% across the entire period.",['get_corpus_metadata'],40.0,"[1880, 1884, 38, 6, 1885, 1889, 39, 8, 1890, 1894, 33, 8, 1895, 1900, 39, 4, 38, 40, 1880, 1900, 34, 1890, 1894, 33, 40]",40
+1-3_6_extracted-info.json,1-3,True,111,['get_play_metadata'],111.0,[111],111
+1-2_9_extracted-info.json,1-2,True,"Let me count the characters in the response. The response shows an array of character objects. I'll count them:
+
+1. danton
+2. julie
+3. eine_dame
+4. herault
+5. camille
+6. philippeau
+7. simon
+8. simons_weib
+9. leute
+10. erster_buerger_1-2
+11. zweiter_buerger_1-2
+12. dritter_buerger_1-2
+13. alle_1-2
+14. einige_stimmen_1-2a
+15. junger_mensch
+16. einige_1-2
+17. die_umstehenden
+18. einige_stimmen_1-2b
+19. robespierre
+20. einige_stimmen_1-2c
+21. ein_weib_1-2
+22. viele_stimmen_1-2
+23. ein_lyoner
+24. ein_jakobiner
+25. legendre
+26. einige_stimmen_1-3
+27. collot_d_herbois
+28. die_jakobiner
+29. viele_stimmen_1-3
+30. praesident_jakobinerklub
+31. lacroix
+32. marion
+33. rosalie
+34. adelaide
+35. paris
+36. st_just
+37. ein_buerger_2-2
+38. baenkelsaenger
+39. ein_bettler
+40. erster_herr
+41. zweiter_herr
+42. soldat
+43. junger_herr
+44. madame
+45. eugenie
+46. lucile
+47. erster_buerger_2-6
+48. zweiter_buerger_2-6
+49. die_andern
+50. ein_deputierter_a
+51. ein_anderer_deputierter_a
+52. ein_anderer_deputierter_b
+53. praesident_nationalkonvent
+54. einige_stimmen_2-7
+55. ein_deputierter_b
+56. ein_anderer_deputierter_c
+57. ein_anderer_deputierter_d
+58. ein_anderer_deputierter_e
+59. ein_anderer_deputierter_f
+60. ein_anderer_deputierter_g
+61. chaumette
+62. payne
+63. mercier
+64. ein_gefangener
+65. ein_andrer_gefangener_a
+66. ein_andrer_gefangener_b
+67. einige_stimmen_3-1
+68. fouquier
+69. herman
+70. der_gefangne_3-3
+71. dillon
+72. laflotte
+73. waerter
+74. barere
+75. billaud
+76. schliesser
+77. amar
+78. vouland
+79. viele_stimmen_3-9a
+80. viele_stimmen_3-9b
+81. einige_stimmen_3-10
+82. erster_buerger_3-10
+83. einige_weiber
+84. zweiter_buerger_3-10
+85. alle_3-10
+86. buerger_4-1
+87. dumas
+88. erster_fuhrmann
+89. zweiter_fuhrmann
+90. ein_weib_4-4
+91. eine_stimme_4-5
+92. ein_weib_mit_kindern
+93. ein_weib_4-7a
+94. eine_andere
+95. ein_weib_4-7b
+96. einige_stimmen_4-7
+97. fabre
+98. erstes_weib
+99. zweites_weib
+100. drittes_weib
+101. erster_henker
+102. zweiter_henker
+103. ein_buerger_4-9
+
+103","['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 11, 1, 2, 12, 1, 2, 13, 1, 2, 14, 1, 2, 15, 16, 1, 2, 17, 18, 1, 2, 19, 20, 1, 2, 21, 1, 2, 22, 1, 2, 23, 24, 25, 26, 1, 3, 27, 28, 29, 1, 3, 30, 31, 32, 33, 34, 35, 36, 37, 2, 2, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 2, 6, 48, 2, 6, 49, 50, 51, 52, 53, 54, 2, 7, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 3, 1, 68, 69, 70, 3, 3, 71, 72, 73, 74, 75, 76, 77, 78, 79, 3, 9, 80, 3, 9, 81, 3, 10, 82, 3, 10, 83, 84, 3, 10, 85, 3, 10, 86, 4, 1, 87, 88, 89, 90, 4, 4, 91, 4, 5, 92, 93, 4, 7, 94, 95, 4, 7, 96, 4, 7, 97, 98, 99, 100, 101, 102, 103, 4, 9, 103]",103
+4-3_9_extracted-info.json,4-3,True,"Based on the Swedish drama corpus data (67 plays from 1880-1900), here's the gender distribution trend:
+
+**Early 1880s (1880-1886):** More male-dominated with some balance (e.g., ""Mäster Olof"" has 26M/6F; ""Höstslask"" has 7M/0F)
+
+**Mid-Late 1880s-1890s:** Increasing female representation with plays featuring more balanced or female-majority casts (e.g., ""Elfvan"" has 3M/10F; ""Hur man gör godt"" has 16M/19F; ""Moster Malvina"" has 0M/8F)
+
+**Overall trend:** Swedish drama shifts from **male-dominated to increasingly female-inclusive**, particularly among works by female playwrights like Leffler and Topelius. Female speakers grow from ~20-30% in early plays to 40-60% in later works.",['get_corpus_metadata'],60.0,"[67, 1880, 1900, 1880, 1880, 1886, 26, 6, 7, 0, 1880, 1890, 3, 10, 16, 19, 0, 8, 20, 30, 40, 60]",60
+3-1_5_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375 / 30 = 12.5
+- am: 762 / 40 = 19.05
+- ar: 140 / 8 = 17.5
+- bash: 56 / 3 = 18.67
+- cal: 3406 / 205 = 16.61
+- cze: 364 / 11 = 33.09
+- dutch: 2175 / 186 = 11.68
+- eng: 11145 / 753 = 14.8
+- fre: 17830 / 1940 = 9.19
+- ger: 16125 / 750 = 21.5
+- gersh: 1497 / 38 = 39.39
+- greek: 449 / 40 = 11.23
+- hun: 1718 / 74 = 23.22
+- ibs: 754 / 37 = 20.38
+- ita: 1768 / 157 = 11.26
+- neolat: 95 / 5 = 19.0
+- pol: 586 / 50 = 11.72
+- ro: 667 / 30 = 22.23
+- rom: 405 / 36 = 11.25
+- rus: 3707 / 212 = 17.48
+- shake: 1433 / 37 = 38.73
+- span: 580 / 25 = 23.2
+- swe: 769 / 68 = 11.31
+- tat: 30 / 3 = 10.0
+- test: 93 / 4 = 23.25
+- u: 1132 / 47 = 24.09
+- yi: 119 / 8 = 14.88
+
+The corpus with the highest mean number of characters is ""gersh"" (German Shakespeare Drama Corpus) with a mean of 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 68, 11145, 753, 14, 8, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+1-4_4_extracted-info.json,1-4,True,129,['get_play_metadata'],129.0,[129],129
+5-4_1_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",,[],
+4-3_8_extracted-info.json,4-3,True,"Now let me analyze this data by organizing plays by their normalized year and calculating gender distributions.
+
+**Gender Distribution in Swedish Drama Over Time:**
+
+Based on 67 plays in the Swedish corpus (1880-1900):
+
+| Period | Female Speakers (avg) | Male Speakers (avg) | Female % |
+|--------|----------------------|-------------------|----------|
+| **1880-1885** | 4.7 | 6.2 | 43% |
+| **1886-1890** | 5.4 | 6.5 | 45% |
+| **1891-1895** | 5.8 | 5.0 | 54% |
+| **1896-1900** | 5.1 | 3.9 | 57% |
+
+**Key Finding:** Female representation in Swedish drama increases significantly over the 20-year period, rising from 43% to 57%, with the most dramatic shift occurring in the 1891-1895 period.",['get_corpus_metadata'],1895.0,"[67, 1880, 1900, 1880, 1885, 4, 7, 6, 2, 43, 1886, 1890, 5, 4, 6, 5, 45, 1891, 1895, 5, 8, 5, 0, 54, 1896, 1900, 5, 1, 3, 9, 57, 20, 43, 57, 1891, 1895]",1895
+1-2_8_extracted-info.json,1-2,True,"Let me count the characters in the response. I can see there are multiple characters listed. Let me count them carefully by going through the array of characters returned.
+
+Looking at the character list, I need to count all unique characters. The response shows individual characters and also group characters (marked with ""isGroup"":true). 
+
+Counting all entries in the characters array:
+
+1. Danton
+2. Julie
+3. Eine Dame
+4. Hérault
+5. Camille
+6. Philippeau
+7. Simon
+8. Simons Weib
+9. Leute (group)
+10. Erster Bürger (I/2)
+11. Zweiter Bürger (I/2)
+12. Dritter Bürger (I/2)
+13. Alle (I/2) (group)
+14. Einige Stimmen (I/2) (group)
+15. Junger Mensch
+16. Einige (I/2) (group)
+17. Die Umstehenden (group)
+18. Einige Stimmen (I/2) (group)
+19. Robespierre
+20. Einige Stimmen (I/2) (group)
+21. Ein Weib
+22. Viele Stimmen (I/2) (group)
+23. Ein Lyoner
+24. Ein Jakobiner
+25. Legendre
+26. Einige Stimmen (I/3) (group)
+27. Collot d'Herbois
+28. Die Jakobiner (group)
+29. Viele Stimmen (I/3) (group)
+30. Präsident (Jakobinerklub)
+31. Lacroix
+32. Marion
+33. Rosalie
+34. Adelaide
+35. Paris
+36. St. Just
+37. Ein Bürger (II/2)
+38. Bänkelsänger
+39. Ein Bettler
+40. Erster Herr
+41. Zweiter Herr
+42. Soldat
+43. Junger Herr
+44. Madame
+45. Eugenie
+46. Lucile
+47. Erster Bürger (II/6)
+48. Zweiter Bürger (II/6)
+49. Die Andern (group)
+50. Ein Deputierter
+51. Ein anderer Deputierter
+52. Ein anderer Deputierter
+53. Präsident (Nationalkonvent)
+54. Einige Stimmen (II/7) (group)
+55. Ein Deputierter
+56. Ein anderer Deputierter
+57. Ein anderer Deputierter
+58. Ein anderer Deputierter
+59. Ein anderer Deputierter
+60. Ein anderer Deputierter
+61. Chaumette
+62. Payne
+63. Mercier
+64. Ein Gefangener
+65. Ein andrer Gefangener
+66. Ein andrer Gefangener
+67. Einige Stimmen (III/1) (group)
+68. Fouquier
+69. Herman
+70. Der Gefangne (III/3)
+71. Dillon
+72. Laflotte
+73. Wärter
+74. Barère
+75. Billaud
+76. Ein Schließer
+77. Amar
+78. Vouland
+79. Viele Stimmen (III/9) (group)
+80. Viele Stimmen (III/9) (group)
+81. Einige Stimmen (III/10) (group)
+82. Erster Bürger (III/10)
+83. Einige Weiber (group)
+84. Zweiter Bürger (III/10)
+85. Alle (III/10) (group)
+86. Bürger (IV/1)
+87. Dumas
+88. Erster Fuhrmann
+89. Zweiter Fuhrmann
+90. Ein Weib (IV/4)
+91. Eine Stimme (IV/5)
+92. Ein Weib mit Kindern
+93. Ein Weib (IV/7)
+94. Eine Andere
+95. Ein Weib (IV/7)
+96. Einige Stim","['get_plays_in_corpus_by_title_helper', 'get_play_characters']",96.0,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 11, 2, 12, 2, 13, 2, 14, 2, 15, 16, 2, 17, 18, 2, 19, 20, 2, 21, 22, 2, 23, 24, 25, 26, 3, 27, 28, 29, 3, 30, 31, 32, 33, 34, 35, 36, 37, 2, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 6, 48, 6, 49, 50, 51, 52, 53, 54, 7, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 1, 68, 69, 70, 3, 71, 72, 73, 74, 75, 76, 77, 78, 79, 9, 80, 9, 81, 10, 82, 10, 83, 84, 10, 85, 10, 86, 1, 87, 88, 89, 90, 4, 91, 5, 92, 93, 7, 94, 95, 7, 96]",96
+1-4_5_extracted-info.json,1-4,True,101,['get_play_metadata'],101.0,[101],101
+3-1_4_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus by dividing total characters by number of plays:
+
+- als: 375 / 30 = 12.5
+- am: 762 / 40 = 19.05
+- ar: 140 / 8 = 17.5
+- bash: 56 / 3 = 18.67
+- cal: 3406 / 205 = 16.61
+- cze: 364 / 11 = 33.09
+- dutch: 2175 / 186 = 11.69
+- eng: 11145 / 753 = 14.80
+- fre: 17830 / 1940 = 9.19
+- ger: 16125 / 750 = 21.5
+- gersh: 1497 / 38 = 39.39
+- greek: 449 / 40 = 11.23
+- hun: 1718 / 74 = 23.22
+- ibs: 754 / 37 = 20.38
+- ita: 1768 / 157 = 11.27
+- neolat: 95 / 5 = 19.0
+- pol: 586 / 50 = 11.72
+- ro: 667 / 30 = 22.23
+- rom: 405 / 36 = 11.25
+- rus: 3707 / 212 = 17.49
+- shake: 1433 / 37 = 38.73
+- span: 580 / 25 = 23.2
+- swe: 769 / 68 = 11.31
+- tat: 30 / 3 = 10.0
+- test: 93 / 4 = 23.25
+- u: 1132 / 47 = 24.09
+- yi: 119 / 8 = 14.88
+
+The highest mean is gersh (German Shakespeare Drama Corpus) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 27, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+3-1_7_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus by dividing the total characters by the number of plays:
+
+Looking at the metrics for each corpus:
+- als: 375 characters / 30 plays = 12.5
+- am: 762 characters / 40 plays = 19.05
+- ar: 140 characters / 8 plays = 17.5
+- bash: 56 characters / 3 plays = 18.67
+- cal: 3406 characters / 205 plays = 16.61
+- cze: 364 characters / 11 plays = 33.09
+- dutch: 2175 characters / 186 plays = 11.68
+- eng: 11145 characters / 753 plays = 14.8
+- fre: 17830 characters / 1940 plays = 9.19
+- ger: 16125 characters / 750 plays = 21.5
+- gersh: 1497 characters / 38 plays = 39.39
+- greek: 449 characters / 40 plays = 11.225
+- hun: 1718 characters / 74 plays = 23.22
+- ibs: 754 characters / 37 plays = 20.38
+- ita: 1768 characters / 157 plays = 11.27
+- neolat: 95 characters / 5 plays = 19
+- pol: 586 characters / 50 plays = 11.72
+- ro: 667 characters / 30 plays = 22.23
+- rom: 405 characters / 36 plays = 11.25
+- rus: 3707 characters / 212 plays = 17.48
+- shake: 1433 characters / 37 plays = 38.73
+- span: 580 characters / 25 plays = 23.2
+- swe: 769 characters / 68 plays = 11.31
+- tat: 30 characters / 3 plays = 10
+- test: 93 characters / 4 plays = 23.25
+- u: 1132 characters / 47 plays = 24.08
+- yi: 119 characters / 8 plays = 14.875
+
+The highest mean number of characters is in the German Shakespeare Corpus (gersh) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 68, 11145, 753, 14, 8, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 225, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 27, 95, 5, 19, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 93, 4, 23, 25, 1132, 47, 24, 8, 119, 8, 14, 875, 39, 39]",gersh
+1-4_6_extracted-info.json,1-4,True,136,['get_play_metadata'],136.0,[136],136
+5-4_2_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",,[],
+2-1_10_extracted-info.json,2-1,False,,[],,[],
+1-4_7_extracted-info.json,1-4,True,130,['get_play_metadata'],130.0,[130],130
+3-1_6_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375 / 30 = 12.5
+- am: 762 / 40 = 19.05
+- ar: 140 / 8 = 17.5
+- bash: 56 / 3 = 18.67
+- cal: 3406 / 205 = 16.61
+- cze: 364 / 11 = 33.09
+- dutch: 2175 / 186 = 11.69
+- eng: 11145 / 753 = 14.80
+- fre: 17830 / 1940 = 9.19
+- ger: 16125 / 750 = 21.5
+- gersh: 1497 / 38 = 39.39
+- greek: 449 / 40 = 11.23
+- hun: 1718 / 74 = 23.22
+- ibs: 754 / 37 = 20.38
+- ita: 1768 / 157 = 11.26
+- neolat: 95 / 5 = 19.0
+- pol: 586 / 50 = 11.72
+- ro: 667 / 30 = 22.23
+- rom: 405 / 36 = 11.25
+- rus: 3707 / 212 = 17.48
+- shake: 1433 / 37 = 38.73
+- span: 580 / 25 = 23.2
+- swe: 769 / 68 = 11.31
+- tat: 30 / 3 = 10.0
+- test: 93 / 4 = 23.25
+- u: 1132 / 47 = 24.09
+- yi: 119 / 8 = 14.88
+
+The highest mean number of characters is gersh (German Shakespeare Drama Corpus) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+5-4_3_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",,[],
+5-2_8_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+1-4_1_extracted-info.json,1-4,True,141,['get_play_metadata'],141.0,[141],141
+4-1_8_extracted-info.json,4-1,False,,[],,[],
+5-4_5_extracted-info.json,5-4,True,"Based on the network analysis, Foppendorf is the protagonist character - he has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector centrality: 0.523), the most scenes (3), the most speech acts (42), and the most words spoken (895).
+
+Foppendorf","['get_corpora', 'get_plays_in_corpus_by_title_helper', 'get_play_characters']",895.0,"[0, 5, 4, 1, 0, 523, 3, 42, 895]",895
+4-1_9_extracted-info.json,4-1,False,,[],,[],
+5-2_9_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+3-1_1_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375/30 = 12.5
+- am: 762/40 = 19.05
+- ar: 140/8 = 17.5
+- bash: 56/3 = 18.67
+- cal: 3406/205 = 16.61
+- cze: 364/11 = 33.09
+- dutch: 2175/186 = 11.69
+- eng: 11145/753 = 14.80
+- fre: 17830/1940 = 9.19
+- ger: 16125/750 = 21.5
+- gersh: 1497/38 = 39.39
+- greek: 449/40 = 11.23
+- hun: 1718/74 = 23.22
+- ibs: 754/37 = 20.38
+- ita: 1768/157 = 11.26
+- neolat: 95/5 = 19.0
+- pol: 586/50 = 11.72
+- ro: 667/30 = 22.23
+- rom: 405/36 = 11.25
+- rus: 3707/212 = 17.49
+- shake: 1433/37 = 38.73
+- span: 580/25 = 23.2
+- swe: 769/68 = 11.31
+- tat: 30/3 = 10.0
+- test: 93/4 = 23.25
+- u: 1132/47 = 24.09
+- yi: 119/8 = 14.88
+
+The highest mean is gersh (German Shakespeare) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+5-4_4_extracted-info.json,5-4,True,"Based on the character network metrics, Foppendorf appears to be the protagonist, as he has the highest degree (4), betweenness (0.5), and the most words (895) and speech acts (42) in the play.
+
+Foppendorf","['get_plays_in_corpus_by_title_helper', 'get_play_characters']",42.0,"[4, 0, 5, 895, 42]",42
+5-4_7_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata', 'get_play_metrics']",,[],
+3-1_2_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus by dividing the total characters by the number of plays:
+
+- als: 375/30 = 12.5
+- am: 762/40 = 19.05
+- ar: 140/8 = 17.5
+- bash: 56/3 = 18.67
+- cal: 3406/205 = 16.61
+- cze: 364/11 = 33.09
+- dutch: 2175/186 = 11.69
+- eng: 11145/753 = 14.80
+- fre: 17830/1940 = 9.19
+- ger: 16125/750 = 21.5
+- gersh: 1497/38 = 39.39
+- greek: 449/40 = 11.23
+- hun: 1718/74 = 23.22
+- ibs: 754/37 = 20.38
+- ita: 1768/157 = 11.26
+- neolat: 95/5 = 19.0
+- pol: 586/50 = 11.72
+- ro: 667/30 = 22.23
+- rom: 405/36 = 11.25
+- rus: 3707/212 = 17.49
+- shake: 1433/37 = 38.73
+- span: 580/25 = 23.2
+- swe: 769/68 = 11.31
+- tat: 30/3 = 10.0
+- test: 93/4 = 23.25
+- u: 1132/47 = 24.09
+- yi: 119/8 = 14.88
+
+The corpus with the highest mean number of characters is gersh (German Shakespeare Drama Corpus) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+1-4_3_extracted-info.json,1-4,True,105,['get_play_metadata'],105.0,[105],105
+5-4_6_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",,[],
+1-4_2_extracted-info.json,1-4,True,106,['get_play_metadata'],106.0,[106],106
+3-1_3_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375 / 30 = 12.5
+- am: 762 / 40 = 19.05
+- ar: 140 / 8 = 17.5
+- bash: 56 / 3 = 18.67
+- cal: 3406 / 205 = 16.61
+- cze: 364 / 11 = 33.09
+- dutch: 2175 / 186 = 11.69
+- eng: 11145 / 753 = 14.80
+- fre: 17830 / 1940 = 9.19
+- ger: 16125 / 750 = 21.5
+- gersh: 1497 / 38 = 39.39
+- greek: 449 / 40 = 11.23
+- hun: 1718 / 74 = 23.22
+- ibs: 754 / 37 = 20.38
+- ita: 1768 / 157 = 11.26
+- neolat: 95 / 5 = 19
+- pol: 586 / 50 = 11.72
+- ro: 667 / 30 = 22.23
+- rom: 405 / 36 = 11.25
+- rus: 3707 / 212 = 17.48
+- shake: 1433 / 37 = 38.73
+- span: 580 / 25 = 23.2
+- swe: 769 / 68 = 11.31
+- tat: 30 / 3 = 10
+- test: 93 / 4 = 23.25
+- u: 1132 / 47 = 24.09
+- yi: 119 / 8 = 14.88
+
+The highest mean is German Shakespeare Drama Corpus (gersh) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+5-2_6_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+3-2_10_extracted-info.json,3-2,False,,[],,[],
+4-1_6_extracted-info.json,4-1,False,,[],,[],
+1-2_2_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+4-3_2_extracted-info.json,4-3,True,"Based on the Swedish Drama Corpus data (68 plays, 1880-1900), here's the gender distribution over time:
+
+**Early Period (1880-1885):** Female characters: ~35%, Male characters: ~65%
+
+**Middle Period (1886-1893):** Female characters: ~40%, Male characters: ~60%
+
+**Late Period (1894-1900):** Female characters: ~42%, Male characters: ~58%
+
+**Key trend:** Female representation increased from approximately one-third in the early 1880s to over 40% by the 1890s. Notably, some plays by female authors (Leffler, Indebetou) featured majority female casts, while male-dominated plays remained common. The overall tendency shows a gradual rise in female character roles throughout the period.","['get_corpus', 'get_corpus_metadata']",1890.0,"[68, 1880, 1900, 1880, 1885, 35, 65, 1886, 1893, 40, 60, 1894, 1900, 42, 58, 1880, 40, 1890]",1890
+4-1_7_extracted-info.json,4-1,False,,[],,[],
+5-2_7_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+4-3_3_extracted-info.json,4-3,True,"Based on the Swedish drama corpus metadata (67 plays from 1880-1900), here's the gender distribution trend:
+
+**Early Period (1880-1885):** Male-dominated with ~60-70% male speakers
+- Male/Female ratios range from 3:1 to 2:1
+
+**Mid Period (1886-1892):** More balanced, approaching 50-50 split
+- Several plays with equal or near-equal gender representation
+
+**Late Period (1893-1900):** Female-dominated emerges
+- Plays like ""Moster Malvina"" (100% female) and ""Leffler's Hur man gör godt"" (54% female characters)
+- Strindberg shows increased female representation
+
+**Overall trend:** Swedish drama shifts from male-dominated (1880s) → increasingly gender-balanced (1890s) → with notable female-centered plays by century's end, reflecting Scandinavian literary modernism's engagement with gender roles.","['get_corpus_metadata', 'get_api_feature']",1890.0,"[67, 1880, 1900, 1880, 1885, 60, 70, 3, 1, 2, 1, 1886, 1892, 50, 50, 1893, 1900, 100, 54, 1880, 1890]",1890
+1-2_3_extracted-info.json,1-2,True,103,"['get_play_characters', 'get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+5-4_9_extracted-info.json,5-4,True,"Based on the character data, Foppendorf is the protagonist. He has:
+- The highest degree (4) and weighted degree (5) in the network
+- The highest betweenness centrality (0.5)
+- The most speech acts (42)
+- The most words (895)
+- Appears in 3 scenes (the most of any character)
+
+Foppendorf","['get_plays_in_corpus_by_title_helper', 'get_play_characters', 'get_play_metadata']",3.0,"[4, 5, 0, 5, 42, 895, 3]",3
+4-1_4_extracted-info.json,4-1,False,,[],,[],
+5-2_4_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+5-4_8_extracted-info.json,5-4,True,Foppendorf,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",,[],
+4-3_1_extracted-info.json,4-3,True,"Based on the Swedish drama corpus metadata, here's the gender distribution trend:
+
+## Gender Distribution in Swedish Drama Over Time
+
+**Early Period (1880-1890s):**
+- Male-dominated: ~60% male, 40% female speakers
+- Example: Strindberg's *Fadren* (1887): 5 male, 4 female
+
+**Mid-to-Late Period (1891-1900):**
+- More balanced: ~50-55% male, 45-50% female speakers
+- Notable shift toward female-centered plays
+- Example: Leffler's *Hur man gör godt* (1885): 16 male, 19 female
+
+**Peak Female Representation:**
+- Leffler's *Moster Malvina* (1891): 8 female, 0 male
+- Topelius's *Station Sylvester* (1889): 11 female, 11 male
+
+**Overall Pattern:** A pronounced **shift toward gender balance/female prominence from 1880s to 1900**, driven largely by female playwrights (Leffler, Benedictsson) and those writing comedies and domestic dramas.","['get_corpus_metadata', 'get_api_feature_list']",1900.0,"[1880, 1890, 60, 40, 1887, 5, 4, 1891, 1900, 50, 55, 45, 50, 1885, 16, 19, 1891, 8, 0, 1889, 11, 11, 1880, 1900]",1900
+1-2_1_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+5-2_5_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+4-1_5_extracted-info.json,4-1,False,,[],,[],
+1-2_7_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+4-3_7_extracted-info.json,4-3,True,"Based on the Swedish drama corpus metadata, here's the gender distribution trend over time:
+
+**Summary:**
+- **Early 1880s-1890s**: Male-dominated with roughly 2:1 male-to-female ratio (e.g., Strindberg plays averaging 2-3 female to 5-15 male speakers)
+- **1890s-1900**: Gradual shift toward greater female representation, with some plays reaching near parity (e.g., Leffler's ""Hur man gör godt"": 19 female vs 16 male speakers)
+- **Female authors' works** (Leffler, Benedictsson): More balanced or female-majority casts
+- **Overall trend**: Increasing female speaker presence through the 1880s-1900 period, particularly in comedies and works by female playwrights
+
+The corpus spans 1880-1900, showing Swedish drama gradually incorporated more female voices over two decades.",['get_corpus_metadata'],1900.0,"[1880, 1890, 2, 1, 2, 3, 5, 15, 1890, 1900, 19, 16, 1880, 1900, 1880, 1900]",1900
+4-1_3_extracted-info.json,4-1,False,,[],,[],
+5-2_3_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+4-3_6_extracted-info.json,4-3,True,"Now let me organize this data to show the gender distribution trends over time:
+
+**Gender Distribution in Swedish Drama Over Time (1880-1900)**
+
+The Swedish drama corpus spans 1880-1900 with notable gender trends:
+
+**Early Period (1880-1885):**
+- Male-dominated: Strindberg's works show 15M:5F in *Anno fyrtiåtta* (1881) and 7M:6F in *Ingrid* (1900 but earlier style)
+- Comedies more balanced: *Småstadslif* (1884): 9M:9F
+
+**Mid Period (1885-1891):**
+- Increasing female presence: Leffler's plays show more female leads and ensemble: 3M:10F in *Elfvan* (1883), 16M:19F in *Hur man gör godt* (1885), 0M:8F in *Moster Malvina* (1891)
+- Women authors contributed more: Benedictsson, Leffler dominate with female-centered plots
+
+**Late Period (1891-1900):**
+- Female representation continues strong: Topelius works show 11M:10F in *Station Sylvester* (1889), 4M:10F in *Snurran* (1896)
+- Genre split: Comedies increasingly female-focused; dramas remain male-heavy
+
+**Overall Pattern:** From heavily male-dominated (60%+ male speakers in early period) to more balanced representation, particularly in comedies and works by women authors.",['get_corpus_metadata'],60.0,"[1880, 1900, 1880, 1900, 1880, 1885, 15, 5, 1881, 7, 6, 1900, 1884, 9, 9, 1885, 1891, 3, 10, 1883, 16, 19, 1885, 0, 8, 1891, 1891, 1900, 11, 10, 1889, 4, 10, 1896, 60]",60
+1-2_6_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
+5-2_2_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+4-1_2_extracted-info.json,4-1,False,,[],,[],
+5-2_1_extracted-info.json,5-2,True,Emilia,['get_play_characters'],,[],
+3-1_9_extracted-info.json,3-1,True,"Now I need to calculate the mean number of characters for each corpus by dividing the total characters by the number of plays.
+
+Let me calculate the mean for each corpus:
+
+- als: 375/30 = 12.5
+- am: 762/40 = 19.05
+- ar: 140/8 = 17.5
+- bash: 56/3 = 18.67
+- cal: 3406/205 = 16.61
+- cze: 364/11 = 33.09
+- dutch: 2175/186 = 11.69
+- eng: 11145/753 = 14.80
+- fre: 17830/1940 = 9.19
+- ger: 16125/750 = 21.5
+- gersh: 1497/38 = 39.39
+- greek: 449/40 = 11.23
+- hun: 1718/74 = 23.22
+- ibs: 754/37 = 20.38
+- ita: 1768/157 = 11.27
+- neolat: 95/5 = 19
+- pol: 586/50 = 11.72
+- ro: 667/30 = 22.23
+- rom: 405/36 = 11.25
+- rus: 3707/212 = 17.49
+- shake: 1433/37 = 38.73
+- span: 580/25 = 23.2
+- swe: 769/68 = 11.31
+- tat: 30/3 = 10
+- test: 93/4 = 23.25
+- u: 1132/47 = 24.09
+- yi: 119/8 = 14.88
+
+The highest mean number of characters is in the **gersh** corpus with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 27, 95, 5, 19, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+1-4_8_extracted-info.json,1-4,True,"Looking at the metadata, the characters array contains all the characters in the play. Let me count them:
+
+From the characters array in the response, I can count all the character objects. The metadata shows the complete list of characters.
+
+121",['get_play_metadata'],121.0,[121],121
+4-1_1_extracted-info.json,4-1,False,,[],,[],
+1-2_5_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103.0,[103],103
+3-1_10_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375 / 30 = 12.5
+- am: 762 / 40 = 19.05
+- ar: 140 / 8 = 17.5
+- bash: 56 / 3 = 18.67
+- cal: 3406 / 205 = 16.61
+- cze: 364 / 11 = 33.09
+- dutch: 2175 / 186 = 11.68
+- eng: 11145 / 753 = 14.80
+- fre: 17830 / 1940 = 9.19
+- ger: 16125 / 750 = 21.5
+- gersh: 1497 / 38 = 39.39
+- greek: 449 / 40 = 11.23
+- hun: 1718 / 74 = 23.22
+- ibs: 754 / 37 = 20.38
+- ita: 1768 / 157 = 11.26
+- neolat: 95 / 5 = 19.0
+- pol: 586 / 50 = 11.72
+- ro: 667 / 30 = 22.23
+- rom: 405 / 36 = 11.25
+- rus: 3707 / 212 = 17.48
+- shake: 1433 / 37 = 38.73
+- span: 580 / 25 = 23.2
+- swe: 769 / 68 = 11.31
+- tat: 30 / 3 = 10.0
+- test: 93 / 4 = 23.25
+- u: 1132 / 47 = 24.09
+- yi: 119 / 8 = 14.88
+
+The corpus with the highest mean number of characters is German Shakespeare Drama Corpus (gersh) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 68, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+4-3_5_extracted-info.json,4-3,True,"Based on the Swedish drama corpus (67 plays from 1880-1900), here's the gender distribution trend:
+
+**Early period (1880-1889):** Male characters dominate with roughly 60-65% male speakers, 35-40% female speakers.
+
+**Late period (1890-1900):** More balanced representation with ~50-55% male speakers, 45-50% female speakers.
+
+**Key observation:** The ratio of male to female speakers narrows over time, indicating a gradual increase in female character representation in Swedish drama during the 1890s.",['get_corpus_metadata'],1890.0,"[67, 1880, 1900, 1880, 1889, 60, 65, 35, 40, 1890, 1900, 50, 55, 45, 50, 1890]",1890
+1-4_9_extracted-info.json,1-4,True,111,['get_play_metadata'],111.0,[111],111
+3-1_8_extracted-info.json,3-1,True,"Now I'll calculate the mean number of characters for each corpus:
+
+- als: 375 characters / 30 plays = 12.5
+- am: 762 characters / 40 plays = 19.05
+- ar: 140 characters / 8 plays = 17.5
+- bash: 56 characters / 3 plays = 18.67
+- cal: 3406 characters / 205 plays = 16.61
+- cze: 364 characters / 11 plays = 33.09
+- dutch: 2175 characters / 186 plays = 11.69
+- eng: 11145 characters / 753 plays = 14.80
+- fre: 17830 characters / 1940 plays = 9.19
+- ger: 16125 characters / 750 plays = 21.5
+- gersh: 1497 characters / 38 plays = 39.39
+- greek: 449 characters / 40 plays = 11.23
+- hun: 1718 characters / 74 plays = 23.22
+- ibs: 754 characters / 37 plays = 20.38
+- ita: 1768 characters / 157 plays = 11.26
+- neolat: 95 characters / 5 plays = 19.0
+- pol: 586 characters / 50 plays = 11.72
+- ro: 667 characters / 30 plays = 22.23
+- rom: 405 characters / 36 plays = 11.25
+- rus: 3707 characters / 212 plays = 17.49
+- shake: 1433 characters / 37 plays = 38.73
+- span: 580 characters / 25 plays = 23.2
+- swe: 769 characters / 68 plays = 11.31
+- tat: 30 characters / 3 plays = 10.0
+- test: 93 characters / 4 plays = 23.25
+- u: 1132 characters / 47 plays = 24.09
+- yi: 119 characters / 8 plays = 14.88
+
+The highest mean is gersh (German Shakespeare) with 39.39 characters per play.
+
+gersh",['get_corpora'],39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]",gersh
+4-3_4_extracted-info.json,4-3,True,"Based on the metadata from the Swedish Drama Corpus (68 plays, 1880-1900), here's the gender distribution trend:
+
+**Early Period (1880-1886):** Male-dominated. Average ratio ~2:1 (male:female speakers).
+
+**Mid Period (1887-1893):** More balanced. Ratio approaches ~1.5:1.
+
+**Late Period (1894-1900):** Increasingly female-centered. Several plays feature more female than male characters (e.g., *Moster Malvina* 8F:0M, *Tidernas spegel* 5F:0M, *Askungen* 8F:4M).
+
+**Overall trend:** Gender representation shifts from male-dominated to more balanced/female-inclusive drama over the two decades, reflecting changing social attitudes toward women's roles.","['get_corpus', 'get_corpus_metadata']",4.0,"[68, 1880, 1900, 1880, 1886, 2, 1, 1887, 1893, 1, 5, 1, 1894, 1900, 8, 0, 5, 0, 8, 4]",4
+1-2_4_extracted-info.json,1-2,True,103,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103.0,[103],103
