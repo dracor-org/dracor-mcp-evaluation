@@ -6,7 +6,11 @@
             [
                 "get_corpora",
                 "get_plays_in_corpus_by_title_helper"
-            ]
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
+
         ]
     },
     {
@@ -16,7 +20,11 @@
             [
                 "get_corpora",
                 "get_plays_in_corpus_by_title_helper"
-            ]
+            
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
         ]
     },
     {
@@ -30,8 +38,7 @@
         "ID": "1-4",
         "Question": "What is the number of characters in Dantons Tod (buechner-dantons-tod) in GerDraCor?",
         "baseline_tool_chains": [
-            ["get_play_characters"],
-            ["get_play_metadata"]
+            ["get_corpus"]
         ]
     },
     {
@@ -41,7 +48,10 @@
             [
                 "get_corpora",
                 "get_plays_in_corpus_by_title_helper"
-            ]
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
         ]
     },
     {
@@ -159,9 +169,20 @@
         "Question": "Who is the most important character in Emilia Galotti?",
         "baseline_tool_chains": [
             [
-                "get_play_characters",
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
                 "get_play_metrics"
             ]
+
         ]
     },
     {
@@ -169,9 +190,20 @@
         "Question": "Who is the protagonist in Emilia Galotti?",
         "baseline_tool_chains": [
             [
-                "get_play_characters",
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
                 "get_play_metrics"
             ]
+
         ]
     },
     {
@@ -179,9 +211,20 @@
         "Question": "Which character is quantitatively most dominant in Emilia Galotti?",
         "baseline_tool_chains": [
             [
-                "get_play_metadata",
+                "get_play_characters"
+	],
+	[
                 "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_metrics"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
             ]
+
         ]
     },
     {
@@ -189,10 +232,20 @@
         "Question": "Who is the protagonist in Die entf\u00fchrte Dose?",
         "baseline_tool_chains": [
             [
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
                 "get_plays_in_corpus_by_title_helper",
-                "get_play_characters",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
                 "get_play_metrics"
             ]
+
         ]
     }
 ]
