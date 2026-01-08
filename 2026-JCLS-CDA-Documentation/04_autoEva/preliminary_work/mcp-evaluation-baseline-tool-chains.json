@@ -1,0 +1,251 @@
+[
+    {
+        "ID": "1-1",
+        "Question": "What is the number of characters in Dantons Tod?",
+        "baseline_tool_chains": [
+            [
+                "get_corpora",
+                "get_plays_in_corpus_by_title_helper"
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
+
+        ]
+    },
+    {
+        "ID": "1-2",
+        "Question": "What is the number of dramatis personae in Dantons Tod?",
+        "baseline_tool_chains": [
+            [
+                "get_corpora",
+                "get_plays_in_corpus_by_title_helper"
+            
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
+        ]
+    },
+    {
+        "ID": "1-3",
+        "Question": "What is the number of characters in Dantons Tod in GerDraCor?",
+        "baseline_tool_chains": [
+            ["get_plays_in_corpus_by_title_helper"]
+        ]
+    },
+    {
+        "ID": "1-4",
+        "Question": "What is the number of characters in Dantons Tod (buechner-dantons-tod) in GerDraCor?",
+        "baseline_tool_chains": [
+            ["get_corpus"]
+        ]
+    },
+    {
+        "ID": "1-5",
+        "Question": "What is the number of characters in Der Nollhart?",
+        "baseline_tool_chains": [
+            [
+                "get_corpora",
+                "get_plays_in_corpus_by_title_helper"
+            ],
+	    [
+		    "get_plays_in_corpus_by_title_helper"
+		]
+        ]
+    },
+    {
+        "ID": "2-1",
+        "Question": "What is the mean number of characters in French Drama?",
+        "baseline_tool_chains": [
+            ["get_corpus"],
+            ["get_corpus_metadata"],
+            ["get_corpus_metadata_csv"],
+            ["get_corpus_metadata_paged_helper"]
+        ]
+    },
+    {
+        "ID": "3-1",
+        "Question": "Which corpus has the highest mean number of characters?",
+        "baseline_tool_chains": [
+            ["get_corpora"]
+        ]
+    },
+    {
+        "ID": "3-2",
+        "Question": "Which corpus covers the widest time range?",
+        "baseline_tool_chains": [
+            [
+                "get_corpora",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper",
+                "get_minimal_data_of_plays_of_corpus_helper"
+            ],
+            [
+                "get_corpora",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata",
+                "get_corpus_metadata"
+            ]
+        ]
+    },
+    {
+        "ID": "4-1",
+        "Question": "How does the percentage of female speakers in German drama change over time?",
+        "Scope": "Corpus Comparison",
+        "baseline_tool_chains": [
+            ["get_corpus_metadata"]
+        ]
+    },
+    {
+        "ID": "4-2",
+        "Question": "How does the mean percentage of female speakers in Swedish drama change over time?",
+        "baseline_tool_chains": [
+            ["get_corpus_metadata"]
+        ]
+    },
+    {
+        "ID": "4-3",
+        "Question": "How does the gender distribution in Swedish drama change over time?",
+        "baseline_tool_chains": [
+            ["get_corpus_metadata"]
+        ]
+    },
+    {
+        "ID": "4-4",
+        "Question": "How does the percentage of female speakers in a ItaDraCor change over time?",
+        "baseline_tool_chains": [
+            ["get_corpus_metadata"]
+        ]
+    },
+    {
+        "ID": "5-1",
+        "Question": "Who is the most important character in Emilia Galotti?",
+        "baseline_tool_chains": [
+            [
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_metrics"
+            ]
+
+        ]
+    },
+    {
+        "ID": "5-2",
+        "Question": "Who is the protagonist in Emilia Galotti?",
+        "baseline_tool_chains": [
+            [
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_metrics"
+            ]
+
+        ]
+    },
+    {
+        "ID": "5-3",
+        "Question": "Which character is quantitatively most dominant in Emilia Galotti?",
+        "baseline_tool_chains": [
+            [
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_metrics"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+            ]
+
+        ]
+    },
+    {
+        "ID": "5-4",
+        "Question": "Who is the protagonist in Die entf\u00fchrte Dose?",
+        "baseline_tool_chains": [
+            [
+                "get_play_characters"
+	],
+	[
+                "get_play_metrics"
+            ],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_characters"
+	],
+            [
+                "get_plays_in_corpus_by_title_helper",
+                "get_play_metrics"
+            ]
+
+        ]
+    }
+]

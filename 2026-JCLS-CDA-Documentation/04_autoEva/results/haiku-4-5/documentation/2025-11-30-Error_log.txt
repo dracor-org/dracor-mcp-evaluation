@@ -1,0 +1,382 @@
+uestion 1-1, Run: 1
+results/1-1_1_extracted-info.json
+Question 1-2, Run: 1
+results/1-2_1_extracted-info.json
+Question 1-3, Run: 1
+results/1-3_1_extracted-info.json
+Question 1-4, Run: 1
+results/1-4_1_extracted-info.json
+Question 1-5, Run: 1
+results/1-5_1_extracted-info.json
+Question 2-1, Run: 1
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdqTS41ApBjq3Txk2WCm'}
+results/2-1_1_extracted-info.json
+Question 3-1, Run: 1
+results/3-1_1_extracted-info.json
+Question 3-2, Run: 1
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Connection error while communicating with MCP server: Connection closed by server (code 1006: ABNORMAL_CLOSURE)'}, 'request_id': 'req_011CVdqZQ9pfmyUMgwmkLdfc'}
+results/3-2_1_extracted-info.json
+Question 4-1, Run: 1
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217542 tokens > 200000 maximum'}, 'request_id': 'req_011CVdqwA7LJ8Ggoh29E6hNn'}
+results/4-1_1_extracted-info.json
+Question 4-2, Run: 1
+results/4-2_1_extracted-info.json
+Question 4-3, Run: 1
+results/4-3_1_extracted-info.json
+Question 4-4, Run: 1
+results/4-4_1_extracted-info.json
+Question 5-1, Run: 1
+results/5-1_1_extracted-info.json
+Question 5-2, Run: 1
+results/5-2_1_extracted-info.json
+Question 5-3, Run: 1
+results/5-3_1_extracted-info.json
+Question 5-4, Run: 1
+results/5-4_1_extracted-info.json
+Question 1-1, Run: 2
+results/1-1_2_extracted-info.json
+Question 1-2, Run: 2
+results/1-2_2_extracted-info.json
+Question 1-3, Run: 2
+results/1-3_2_extracted-info.json
+Question 1-4, Run: 2
+results/1-4_2_extracted-info.json
+Question 1-5, Run: 2
+results/1-5_2_extracted-info.json
+Question 2-1, Run: 2
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdrAtsgwgf8fEr1QvfXH'}
+results/2-1_2_extracted-info.json
+Question 3-1, Run: 2
+results/3-1_2_extracted-info.json
+Question 3-2, Run: 2
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217165 tokens > 200000 maximum'}, 'request_id': 'req_011CVdrGggtLiY6RsoXucwwW'}
+results/3-2_2_extracted-info.json
+Question 4-1, Run: 2
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217553 tokens > 200000 maximum'}, 'request_id': 'req_011CVdrV2342ZVv3XzDxfxr1'}
+results/4-1_2_extracted-info.json
+Question 4-2, Run: 2
+results/4-2_2_extracted-info.json
+Question 4-3, Run: 2
+results/4-3_2_extracted-info.json
+Question 4-4, Run: 2
+results/4-4_2_extracted-info.json
+Question 5-1, Run: 2
+results/5-1_2_extracted-info.json
+Question 5-2, Run: 2
+results/5-2_2_extracted-info.json
+Question 5-3, Run: 2
+An exception of type IndexError occurred:
+list index out of range
+results/5-3_2_extracted-info.json
+Question 5-4, Run: 2
+results/5-4_2_extracted-info.json
+Question 1-1, Run: 3
+results/1-1_3_extracted-info.json
+Question 1-2, Run: 3
+results/1-2_3_extracted-info.json
+Question 1-3, Run: 3
+results/1-3_3_extracted-info.json
+Question 1-4, Run: 3
+results/1-4_3_extracted-info.json
+Question 1-5, Run: 3
+results/1-5_3_extracted-info.json
+Question 2-1, Run: 3
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdrkAj6v9vPNHMKajpNg'}
+results/2-1_3_extracted-info.json
+Question 3-1, Run: 3
+results/3-1_3_extracted-info.json
+Question 3-2, Run: 3
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Connection error while communicating with MCP server: Connection closed by server (code 1006: ABNORMAL_CLOSURE)'}, 'request_id': 'req_011CVdrr5yH1G1LqW7BqWwRU'}
+results/3-2_3_extracted-info.json
+Question 4-1, Run: 3
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217539 tokens > 200000 maximum'}, 'request_id': 'req_011CVdsDDq94WcgVpbKq3htP'}
+results/4-1_3_extracted-info.json
+Question 4-2, Run: 3
+results/4-2_3_extracted-info.json
+Question 4-3, Run: 3
+results/4-3_3_extracted-info.json
+Question 4-4, Run: 3
+results/4-4_3_extracted-info.json
+Question 5-1, Run: 3
+results/5-1_3_extracted-info.json
+Question 5-2, Run: 3
+results/5-2_3_extracted-info.json
+Question 5-3, Run: 3
+results/5-3_3_extracted-info.json
+Question 5-4, Run: 3
+results/5-4_3_extracted-info.json
+Question 1-1, Run: 4
+results/1-1_4_extracted-info.json
+Question 1-2, Run: 4
+results/1-2_4_extracted-info.json
+Question 1-3, Run: 4
+results/1-3_4_extracted-info.json
+Question 1-4, Run: 4
+results/1-4_4_extracted-info.json
+Question 1-5, Run: 4
+results/1-5_4_extracted-info.json
+Question 2-1, Run: 4
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdsTA4ZUkh4zXYpBuwRa'}
+results/2-1_4_extracted-info.json
+Question 3-1, Run: 4
+results/3-1_4_extracted-info.json
+Question 3-2, Run: 4
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Connection error while communicating with MCP server: Connection closed by server (code 1006: ABNORMAL_CLOSURE)'}, 'request_id': 'req_011CVdsgp8eAt4zsZZBVjkB2'}
+results/3-2_4_extracted-info.json
+Question 4-1, Run: 4
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217543 tokens > 200000 maximum'}, 'request_id': 'req_011CVdt4hE2gtiGPQhixkxRN'}
+results/4-1_4_extracted-info.json
+Question 4-2, Run: 4
+results/4-2_4_extracted-info.json
+Question 4-3, Run: 4
+results/4-3_4_extracted-info.json
+Question 4-4, Run: 4
+results/4-4_4_extracted-info.json
+Question 5-1, Run: 4
+results/5-1_4_extracted-info.json
+Question 5-2, Run: 4
+results/5-2_4_extracted-info.json
+Question 5-3, Run: 4
+results/5-3_4_extracted-info.json
+Question 5-4, Run: 4
+results/5-4_4_extracted-info.json
+Question 1-1, Run: 5
+results/1-1_5_extracted-info.json
+Question 1-2, Run: 5
+results/1-2_5_extracted-info.json
+Question 1-3, Run: 5
+results/1-3_5_extracted-info.json
+Question 1-4, Run: 5
+results/1-4_5_extracted-info.json
+Question 1-5, Run: 5
+results/1-5_5_extracted-info.json
+Question 2-1, Run: 5
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdtLPR9wGsZXGPR53dSn'}
+results/2-1_5_extracted-info.json
+Question 3-1, Run: 5
+results/3-1_5_extracted-info.json
+Question 3-2, Run: 5
+results/3-2_5_extracted-info.json
+Question 4-1, Run: 5
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217535 tokens > 200000 maximum'}, 'request_id': 'req_011CVdtTWJ6XfC3Nm89kJiVp'}
+results/4-1_5_extracted-info.json
+Question 4-2, Run: 5
+results/4-2_5_extracted-info.json
+Question 4-3, Run: 5
+results/4-3_5_extracted-info.json
+Question 4-4, Run: 5
+results/4-4_5_extracted-info.json
+Question 5-1, Run: 5
+results/5-1_5_extracted-info.json
+Question 5-2, Run: 5
+results/5-2_5_extracted-info.json
+Question 5-3, Run: 5
+results/5-3_5_extracted-info.json
+Question 5-4, Run: 5
+results/5-4_5_extracted-info.json
+Question 1-1, Run: 6
+results/1-1_6_extracted-info.json
+Question 1-2, Run: 6
+results/1-2_6_extracted-info.json
+Question 1-3, Run: 6
+results/1-3_6_extracted-info.json
+Question 1-4, Run: 6
+results/1-4_6_extracted-info.json
+Question 1-5, Run: 6
+results/1-5_6_extracted-info.json
+Question 2-1, Run: 6
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 211006 tokens > 200000 maximum'}, 'request_id': 'req_011CVdthda32z9XVFR7bLd2L'}
+results/2-1_6_extracted-info.json
+Question 3-1, Run: 6
+results/3-1_6_extracted-info.json
+Question 3-2, Run: 6
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217161 tokens > 200000 maximum'}, 'request_id': 'req_011CVdtjWwjPtmQpGDQ6KUf6'}
+results/3-2_6_extracted-info.json
+Question 4-1, Run: 6
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217541 tokens > 200000 maximum'}, 'request_id': 'req_011CVdtxDiFtJAiKZcZ2hJhV'}
+results/4-1_6_extracted-info.json
+Question 4-2, Run: 6
+results/4-2_6_extracted-info.json
+Question 4-3, Run: 6
+results/4-3_6_extracted-info.json
+Question 4-4, Run: 6
+results/4-4_6_extracted-info.json
+Question 5-1, Run: 6
+results/5-1_6_extracted-info.json
+Question 5-2, Run: 6
+results/5-2_6_extracted-info.json
+Question 5-3, Run: 6
+results/5-3_6_extracted-info.json
+Question 5-4, Run: 6
+results/5-4_6_extracted-info.json
+Question 1-1, Run: 7
+results/1-1_7_extracted-info.json
+Question 1-2, Run: 7
+results/1-2_7_extracted-info.json
+Question 1-3, Run: 7
+results/1-3_7_extracted-info.json
+Question 1-4, Run: 7
+results/1-4_7_extracted-info.json
+Question 1-5, Run: 7
+results/1-5_7_extracted-info.json
+Question 2-1, Run: 7
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 211006 tokens > 200000 maximum'}, 'request_id': 'req_011CVduC2tmco7G4ykYHQN3F'}
+results/2-1_7_extracted-info.json
+Question 3-1, Run: 7
+results/3-1_7_extracted-info.json
+Question 3-2, Run: 7
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Connection error while communicating with MCP server: Connection closed by server (code 1006: ABNORMAL_CLOSURE)'}, 'request_id': 'req_011CVduE582CkakcbXfLUxLQ'}
+results/3-2_7_extracted-info.json
+Question 4-1, Run: 7
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217541 tokens > 200000 maximum'}, 'request_id': 'req_011CVduR9PK5iH8DHqPJgLkz'}
+results/4-1_7_extracted-info.json
+Question 4-2, Run: 7
+results/4-2_7_extracted-info.json
+Question 4-3, Run: 7
+results/4-3_7_extracted-info.json
+Question 4-4, Run: 7
+results/4-4_7_extracted-info.json
+Question 5-1, Run: 7
+results/5-1_7_extracted-info.json
+Question 5-2, Run: 7
+results/5-2_7_extracted-info.json
+Question 5-3, Run: 7
+results/5-3_7_extracted-info.json
+Question 5-4, Run: 7
+results/5-4_7_extracted-info.json
+Question 1-1, Run: 8
+results/1-1_8_extracted-info.json
+Question 1-2, Run: 8
+results/1-2_8_extracted-info.json
+Question 1-3, Run: 8
+results/1-3_8_extracted-info.json
+Question 1-4, Run: 8
+results/1-4_8_extracted-info.json
+Question 1-5, Run: 8
+results/1-5_8_extracted-info.json
+Question 2-1, Run: 8
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdugThJjvCwGcgJhpB4j'}
+results/2-1_8_extracted-info.json
+Question 3-1, Run: 8
+results/3-1_8_extracted-info.json
+Question 3-2, Run: 8
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Connection error while communicating with MCP server: Connection closed by server (code 1006: ABNORMAL_CLOSURE)'}, 'request_id': 'req_011CVdunGMM91NzXqeSHd6YF'}
+results/3-2_8_extracted-info.json
+Question 4-1, Run: 8
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217530 tokens > 200000 maximum'}, 'request_id': 'req_011CVduzSV8HVq8FHXvAGCPf'}
+results/4-1_8_extracted-info.json
+Question 4-2, Run: 8
+results/4-2_8_extracted-info.json
+Question 4-3, Run: 8
+results/4-3_8_extracted-info.json
+Question 4-4, Run: 8
+results/4-4_8_extracted-info.json
+Question 5-1, Run: 8
+results/5-1_8_extracted-info.json
+Question 5-2, Run: 8
+results/5-2_8_extracted-info.json
+Question 5-3, Run: 8
+An exception of type IndexError occurred:
+list index out of range
+results/5-3_8_extracted-info.json
+Question 5-4, Run: 8
+results/5-4_8_extracted-info.json
+Question 1-1, Run: 9
+results/1-1_9_extracted-info.json
+Question 1-2, Run: 9
+results/1-2_9_extracted-info.json
+Question 1-3, Run: 9
+results/1-3_9_extracted-info.json
+Question 1-4, Run: 9
+results/1-4_9_extracted-info.json
+Question 1-5, Run: 9
+results/1-5_9_extracted-info.json
+Question 2-1, Run: 9
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdvESfggAcgXm3EqfZMe'}
+results/2-1_9_extracted-info.json
+Question 3-1, Run: 9
+results/3-1_9_extracted-info.json
+Question 3-2, Run: 9
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217152 tokens > 200000 maximum'}, 'request_id': 'req_011CVdvLM3mHepJQdFfdybGX'}
+results/3-2_9_extracted-info.json
+Question 4-1, Run: 9
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217539 tokens > 200000 maximum'}, 'request_id': 'req_011CVdvXSZTYWzhQBAYcwSK3'}
+results/4-1_9_extracted-info.json
+Question 4-2, Run: 9
+results/4-2_9_extracted-info.json
+Question 4-3, Run: 9
+results/4-3_9_extracted-info.json
+Question 4-4, Run: 9
+results/4-4_9_extracted-info.json
+Question 5-1, Run: 9
+results/5-1_9_extracted-info.json
+Question 5-2, Run: 9
+results/5-2_9_extracted-info.json
+Question 5-3, Run: 9
+results/5-3_9_extracted-info.json
+Question 5-4, Run: 9
+results/5-4_9_extracted-info.json
+Question 1-1, Run: 10
+results/1-1_10_extracted-info.json
+Question 1-2, Run: 10
+results/1-2_10_extracted-info.json
+Question 1-3, Run: 10
+results/1-3_10_extracted-info.json
+Question 1-4, Run: 10
+results/1-4_10_extracted-info.json
+Question 1-5, Run: 10
+results/1-5_10_extracted-info.json
+Question 2-1, Run: 10
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 214371 tokens > 200000 maximum'}, 'request_id': 'req_011CVdvmNyYfRfY5Gjddkxc2'}
+results/2-1_10_extracted-info.json
+Question 3-1, Run: 10
+results/3-1_10_extracted-info.json
+Question 3-2, Run: 10
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217176 tokens > 200000 maximum'}, 'request_id': 'req_011CVdvsBVeukrHTHuk26JXY'}
+results/3-2_10_extracted-info.json
+Question 4-1, Run: 10
+An exception of type BadRequestError occurred:
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 217542 tokens > 200000 maximum'}, 'request_id': 'req_011CVdw4zmpFGmubZFAnNXa8'}
+results/4-1_10_extracted-info.json
+Question 4-2, Run: 10
+results/4-2_10_extracted-info.json
+Question 4-3, Run: 10
+results/4-3_10_extracted-info.json
+Question 4-4, Run: 10
+results/4-4_10_extracted-info.json
+Question 5-1, Run: 10
+results/5-1_10_extracted-info.json
+Question 5-2, Run: 10
+results/5-2_10_extracted-info.json
+Question 5-3, Run: 10
+results/5-3_10_extracted-info.json
+Question 5-4, Run: 10
+results/5-4_10_extracted-info.json

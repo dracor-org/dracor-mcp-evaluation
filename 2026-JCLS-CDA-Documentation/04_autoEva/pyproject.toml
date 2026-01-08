@@ -1,0 +1,16 @@
+[project]
+name = "2025-dh-paper-automatic-evaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.69.0",
+    "datetime>=6.0",
+    "jsonschema>=4.24.0",
+    "pandas>=2.3.0",
+    "plotly>=6.5.0",
+    "pydracor>=3.0.2",
+    "typing>=3.10.0.0",
+    "werx>=0.3.0",
+]
