@@ -11,7 +11,7 @@ ID,Correct Answer
 4-2,Open question
 4-3,Open question
 4-4,Open question
-5-1,"[der prinz, claudia, pirro, battista, conti, der_kammerdiener, emilia, orsina, der_prinz, marinelli, appiani, der kammerdiener, camillo_rota, odoardo, angelo, camillo rota]"
-5-2,"[der prinz, claudia, pirro, battista, conti, der_kammerdiener, emilia, orsina, der_prinz, marinelli, appiani, der kammerdiener, camillo_rota, odoardo, angelo, camillo rota]"
+5-1,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]"
+5-2,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]"
 5-3,marinelli
-5-4,"[foppendorf, dratmann, charlottchen, christinchen, glocke]"
+5-4,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]"
