@@ -60,7 +60,7 @@ The data shows a general **upward trend with fluctuations**:
 - No consistent monotonic increase; rather cyclical patterns tied to genre and period conventions"
 1-5_4_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14,14,14.0,[14],14
 1-3_9_extracted-info.json,1-3,True,True,['get_play_metadata'],127,103,127.0,[127],127
-5-2_10_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_10_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 4-2_9_extracted-info.json,4-2,True,,['get_corpus_metadata'],7,Open question,7.0,"[1880, 1889, 38, 9, 1890, 1899, 42, 1, 1900, 1909, 46, 2, 39, 1880, 46, 1900, 7]","Now I'll calculate the mean percentage of female speakers for each play, grouped by decade:
 
 **Female speaker percentage by decade in Swedish drama:**
@@ -84,7 +84,7 @@ The data shows a general **upward trend with fluctuations**:
 - **1800-1933** (Modern period): ~20-30% female speakers
 
 **Key pattern:** The percentage of female speakers remains relatively **stable at 20-40%** throughout the corpus with no clear linear trend. There is considerable variation play-to-play, but no consistent increase or decrease over the roughly 500-year span of Italian drama in ItaDraCor."
-5-1_9_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,,[],Marinelli
+5-1_9_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Marinelli
 3-2_1_extracted-info.json,3-2,False,False,[],,fre,,[],
 1-5_5_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14,14,14.0,[14],14
 4-4_5_extracted-info.json,4-4,True,,['get_corpus_metadata'],19,Open question,19.0,"[1449, 1500, 50, 33, 1500, 1550, 50, 26, 1550, 1600, 50, 25, 1600, 1650, 50, 19, 1650, 1700, 50, 17, 1700, 1750, 50, 27, 1750, 1800, 50, 35, 1800, 1850, 50, 24, 33, 17, 17, 18, 35, 19]","Based on the ItaDraCor metadata, here's the trend in female speaker percentage over time:
@@ -101,7 +101,7 @@ The data shows a general **upward trend with fluctuations**:
 
 **Overall trend:** Female speaker representation in ItaDraCor **declines from the Renaissance (~33%) to the 17th century (minimum ~17%)**, then **recovers in the 18th century (~35%)**, before dropping again in the early 19th century."
 1-2_10_extracted-info.json,1-2,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
-5-1_8_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,9.0,"[9, 9]","Based on the network metrics, the most important character is determined by the highest degree centrality (maxDegree: 9). According to the metrics, ""marinelli"" has the maximum degree of 9 connections.
+5-1_8_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",9.0,"[9, 9]","Based on the network metrics, the most important character is determined by the highest degree centrality (maxDegree: 9). According to the metrics, ""marinelli"" has the maximum degree of 9 connections.
 
 Marinelli"
 4-2_8_extracted-info.json,4-2,True,,"['get_corpus', 'get_corpus_metadata']",9,Open question,9.0,"[100, 1880, 1900, 1880, 17, 6, 1881, 24, 3, 1882, 26, 0, 1883, 47, 2, 1884, 37, 0, 1885, 36, 8, 1886, 35, 3, 1887, 36, 9, 1888, 32, 1, 1889, 28, 3, 1890, 36, 0, 1891, 44, 4, 1893, 40, 0, 1894, 30, 8, 1895, 66, 7, 1896, 38, 4, 1897, 44, 9, 1899, 33, 3, 1900, 42, 9, 18, 67, 1883, 47, 2, 1895, 66, 7, 1897, 44, 9, 1880, 17, 6, 36, 9]","Perfect! Now I can calculate the mean percentage of female speakers over time. Let me process this data:
@@ -150,7 +150,7 @@ For each play, I'll calculate: (numOfSpeakersFemale / numOfSpeakers) × 100, the
 
 **Notable**: The 18th century Goldoni plays show more female speakers (~33-43%), while tragedies (especially Alfieri) show lower percentages (~17-25%). Overall, female representation remains modest and relatively consistent throughout the corpus."
 1-5_3_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",14,14,14.0,[14],14
-5-1_10_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,,[],Marinelli
+5-1_10_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Marinelli
 2-1_6_extracted-info.json,2-1,False,False,[],,9.19,,[],
 3-2_6_extracted-info.json,3-2,False,False,[],,fre,,[],
 1-5_2_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14,14,14.0,[14],14
@@ -170,7 +170,7 @@ For each play, I'll calculate: (numOfSpeakersFemale / numOfSpeakers) × 100, the
 2-1_7_extracted-info.json,2-1,False,False,[],,9.19,,[],
 3-2_4_extracted-info.json,3-2,False,False,[],,fre,,[],
 2-1_4_extracted-info.json,2-1,False,False,[],,9.19,,[],
-5-3_8_extracted-info.json,5-3,False,False,[],,Marinelli,,[],
+5-3_8_extracted-info.json,5-3,False,False,[],,marinelli,,[],
 4-4_1_extracted-info.json,4-4,True,,['get_corpus_metadata'],24,Open question,24.0,"[1400, 28, 1500, 1549, 25, 1550, 1599, 29, 1600, 1649, 23, 1700, 1749, 31, 1750, 1799, 29, 1800, 24, 25, 30, 1550, 1599, 29, 1700, 31, 1600, 23, 19, 24]","Now I'll calculate the percentage of female speakers for each play and group them by normalized year to show the trend over time.
 
 **Female Speaker Percentage in ItaDraCor Over Time:**
@@ -193,18 +193,18 @@ Computing percentages from the metadata (female speakers / total speakers):
 2-1_5_extracted-info.json,2-1,False,False,[],,9.19,,[],
 3-2_5_extracted-info.json,3-2,True,True,"['get_corpora', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata', 'get_corpus_metadata']",,fre,,[],Now I need to get metadata for each corpus to determine their time ranges. Let me get metadata for the corpora:
 1-1_9_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-3_9_extracted-info.json,5-3,True,True,['get_spoken_text_by_characters'],Prinz,Marinelli,,[],"Looking at the character data, I need to count the amount of spoken text for each character. Let me examine the word counts or speech acts for the main characters.
+5-3_9_extracted-info.json,5-3,True,True,['get_spoken_text_by_characters'],prinz,marinelli,,[],"Looking at the character data, I need to count the amount of spoken text for each character. Let me examine the word counts or speech acts for the main characters.
 
 Based on the data returned, ""Der Prinz"" (The Prince) has by far the most extensive spoken text with many long speeches and dialogues throughout the play. The character has the largest text array with numerous substantial passages.
 
 Der Prinz"
 1-1_4_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-3_4_extracted-info.json,5-3,True,True,['get_play_characters'],Marinelli,Marinelli,,[],Marinelli
+5-3_4_extracted-info.json,5-3,True,True,['get_play_characters'],marinelli,marinelli,,[],Marinelli
 2-1_8_extracted-info.json,2-1,False,False,[],,9.19,,[],
 3-2_8_extracted-info.json,3-2,False,False,[],,fre,,[],
-5-3_5_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,,[],Marinelli
+5-3_5_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,marinelli,,[],Marinelli
 1-1_5_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-1_1_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",Marinelli,Marinelli,6.0,"[9, 0, 449, 9, 0, 449, 0, 247, 8, 0, 467, 0, 75, 6]","Based on the network metrics, Marinelli has the highest degree (9) and the highest eigenvector centrality (0.449), making him the most important character in the network. However, the play is titled ""Emilia Galotti"" and Emilia is the protagonist. Looking at multiple importance measures:
+5-1_1_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",6.0,"[9, 0, 449, 9, 0, 449, 0, 247, 8, 0, 467, 0, 75, 6]","Based on the network metrics, Marinelli has the highest degree (9) and the highest eigenvector centrality (0.449), making him the most important character in the network. However, the play is titled ""Emilia Galotti"" and Emilia is the protagonist. Looking at multiple importance measures:
 
 - Marinelli: highest degree (9), highest eigenvector (0.449), high betweenness (0.247)
 - Der Prinz (The Prince): high degree (8), high betweenness (0.467), highest closeness (0.75)
@@ -231,7 +231,7 @@ The corpus spans 1880-1900. Female representation is relatively **stable around 
 **Conclusion**: The mean percentage of female speakers shows **no significant temporal change** in Swedish drama (1880-1900), staying relatively constant at approximately **36%**."
 2-1_9_extracted-info.json,2-1,False,False,[],,9.19,,[],
 1-3_1_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-1_2_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",Marinelli,Marinelli,,[],Marinelli
+5-1_2_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Marinelli
 1-3_2_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
 4-2_2_extracted-info.json,4-2,True,,"['get_corpus', 'get_corpus_metadata', 'get_spoken_text']",1900,Open question,1900.0,"[1880, 1889, 42, 5, 1890, 1899, 44, 2, 1900, 42, 8, 42, 44, 1880, 1900]","Based on my analysis of the Swedish Drama Corpus metadata, here's the precise answer:
 
@@ -244,7 +244,7 @@ The mean percentage of female speakers shows a **modest fluctuation with no clea
 - **1900**: ~42.8%
 
 **Conclusion**: Female speaker representation remains relatively stable (~42-44%) across the Swedish plays from 1880-1900, with no significant change over time."
-5-3_6_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,,[],marinelli
+5-3_6_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,marinelli,,[],marinelli
 1-1_6_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
 4-2_3_extracted-info.json,4-2,True,,['get_corpus_metadata'],1890,Open question,1890.0,"[1880, 1, 17, 6, 1881, 2, 20, 0, 1882, 2, 39, 1, 1883, 5, 47, 5, 1884, 6, 42, 1, 1885, 5, 46, 2, 1886, 4, 42, 5, 1887, 5, 45, 0, 1888, 2, 38, 5, 1889, 2, 42, 9, 1890, 4, 43, 8, 1891, 3, 56, 3, 1893, 3, 40, 0, 1894, 1, 30, 8, 1895, 1, 66, 7, 1896, 6, 47, 9, 1897, 7, 48, 0, 1898, 1, 31, 9, 1900, 1, 42, 9, 18, 1880, 47, 1883, 1897, 67, 1895, 40, 48, 1890]","Now I'll calculate the percentage of female speakers for each play and analyze the trend over time:
 
@@ -272,7 +272,7 @@ The mean percentage of female speakers shows a **modest fluctuation with no clea
 
 **The mean percentage of female speakers in Swedish drama rose sharply from ~18% (1880) to ~47% (1883-1897), with a peak of ~67% in 1895, before stabilizing around 40-48% through the 1890s.**"
 1-3_3_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-1_3_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",Marinelli,Marinelli,383.0,"[9, 0, 247, 9, 0, 247, 0, 449, 8, 0, 467, 0, 321, 7, 0, 45, 0, 383]","Based on the network metrics, Marinelli has the highest degree (9) and the highest betweenness centrality (0.247), making him the most important character in the network. However, let me verify this is truly the most important character by examining the eigenvector centrality as well, which is another key measure of importance.
+5-1_3_extracted-info.json,5-1,True,True,"['get_play_metadata', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",383.0,"[9, 0, 247, 9, 0, 247, 0, 449, 8, 0, 467, 0, 321, 7, 0, 45, 0, 383]","Based on the network metrics, Marinelli has the highest degree (9) and the highest betweenness centrality (0.247), making him the most important character in the network. However, let me verify this is truly the most important character by examining the eigenvector centrality as well, which is another key measure of importance.
 
 Looking at the metrics:
 - Marinelli: degree=9, betweenness=0.247, eigenvector=0.449
@@ -283,8 +283,8 @@ Marinelli has the highest degree and highest eigenvector centrality, making him 
 
 Marinelli"
 1-1_7_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-3_7_extracted-info.json,5-3,True,True,['get_play_characters'],Marinelli,Marinelli,,[],Marinelli
-5-1_5_extracted-info.json,5-1,True,True,['get_play_characters'],Prinz,Prinz,,[],Der Prinz
+5-3_7_extracted-info.json,5-3,True,True,['get_play_characters'],marinelli,marinelli,,[],Marinelli
+5-1_5_extracted-info.json,5-1,True,True,['get_play_characters'],prinz,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Der Prinz
 1-3_10_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
 1-3_5_extracted-info.json,1-3,True,True,['get_play_metadata'],111,103,111.0,[111],111
 4-2_5_extracted-info.json,4-2,True,,"['get_corpus_metadata', 'get_corpus_metadata_csv']",1890,Open question,1890.0,"[1880, 1884, 40, 0, 1885, 1889, 43, 6, 1890, 1894, 40, 9, 1895, 1899, 43, 8, 40, 44, 1880, 1890]","Based on the Swedish drama corpus data, here's the trend:
@@ -296,7 +296,7 @@ Marinelli"
 - 1895-1899: 43.8%
 
 **Overall trend:** The percentage of female speakers fluctuates between ~40-44%, showing slight increases in the mid-1880s and late 1890s, but remains relatively stable across the period with no strong directional change."
-5-3_1_extracted-info.json,5-3,True,True,['get_play_characters'],Marinelli,Marinelli,,[],Marinelli
+5-3_1_extracted-info.json,5-3,True,True,['get_play_characters'],marinelli,marinelli,,[],Marinelli
 4-4_8_extracted-info.json,4-4,True,,['get_corpus_metadata'],18,Open question,18.0,"[1449, 1500, 28, 1501, 1550, 23, 1551, 1600, 22, 1601, 1650, 20, 1651, 1700, 19, 1701, 1750, 18, 26, 1751, 1800, 18, 29, 1801, 1850, 19, 18, 28, 16, 17, 19, 18, 29, 19, 18]","Based on the ItaDraCor metadata, I can now calculate the percentage of female speakers over time:
 
 **Female Speaker Percentages by Period:**
@@ -313,7 +313,7 @@ Marinelli"
 **Key Finding:** Female speaker representation shows a U-shaped pattern. It starts relatively high (≈28%) in the earliest plays, declines steadily through the 16th-17th centuries (reaching a low of ≈19%), then **increases sharply in the 18th century (≈29%), before dropping again in the 19th century (≈18%)**."
 1-5_8_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14,14,14.0,[14],14
 1-1_1_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-3_10_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_spoken_text_by_characters']",Prinz,Marinelli,,[],"Looking at the spoken text data, I need to count how much text each character has. Let me analyze the character with the most dialogue:
+5-3_10_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_spoken_text_by_characters']",prinz,marinelli,,[],"Looking at the spoken text data, I need to count how much text each character has. Let me analyze the character with the most dialogue:
 
 - Der Prinz (Der Prinz): This character has an extremely long text block - clearly the most extensive dialogue
 - Marinelli: Very substantial dialogue, second most
@@ -339,7 +339,7 @@ Based on the Swedish Drama Corpus metadata, here's the trend in mean percentage 
 
 **Overall trend:** Female speaker percentages peaked in the late 1880s (~42%), then slightly declined toward 1900, averaging around 38% across the full period."
 1-3_4_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-1_4_extracted-info.json,5-1,True,True,"['get_play_network', 'get_play_metrics']",Der_Prinz,Der_Prinz,,[],der_prinz
+5-1_4_extracted-info.json,5-1,True,True,"['get_play_network', 'get_play_metrics']",der_prinz,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],der_prinz
 1-5_9_extracted-info.json,1-5,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",14,14,14.0,[14],14
 4-4_9_extracted-info.json,4-4,True,,"['get_corpus_metadata', 'get_api_info']",18,Open question,18.0,"[15, 16, 1451, 1600, 21, 17, 1601, 1700, 23, 18, 1701, 1800, 26, 19, 20, 1801, 1933, 21, 15, 16, 18, 21, 26, 19, 20, 21, 18]","Based on the ItaDraCor metadata, here's the trend in female speaker percentage over time:
 
@@ -353,7 +353,7 @@ Based on the Swedish Drama Corpus metadata, here's the trend in mean percentage 
 **Conclusion:** The percentage of female speakers in ItaDraCor shows a **gradual increase from the 15th-16th centuries through the 18th century** (from ~21% to ~26%), then **declines slightly in the 19th-20th centuries** (~21%). The **peak is in the 18th century**, particularly in Goldoni's comedies and Metastasio's operatic works, which feature relatively balanced female representation."
 1-1_3_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
 1-4_10_extracted-info.json,1-4,True,True,['get_play_metadata'],130,103,130.0,[130],130
-5-3_3_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",Prinz,Marinelli,,[],Der Prinz
+5-3_3_extracted-info.json,5-3,True,True,"['get_play_metadata', 'get_play_metrics']",prinz,marinelli,,[],Der Prinz
 1-3_7_extracted-info.json,1-3,True,True,"['get_play_metadata', 'get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
 4-2_7_extracted-info.json,4-2,True,,"['get_corpus', 'get_corpus_metadata']",5,Open question,5.0,"[68, 1880, 1900, 1880, 1884, 42, 1885, 1889, 45, 1890, 1894, 44, 1895, 1900, 47, 42, 1880, 47, 1895, 1900, 5]","Now I'll calculate the percentage of female speakers for each play and analyze the trend over time:
 
@@ -367,11 +367,11 @@ Based on the SweDraCor metadata (68 plays from 1880-1900), here's the trend:
 - **1895-1900**: ~47% female speakers
 
 **Overall trend**: The mean percentage of female speakers increases slightly from around 42% in the early 1880s to approximately 47% by 1895-1900, showing a modest upward trend of roughly **+5 percentage points** across the two decades."
-5-1_7_extracted-info.json,5-1,True,True,['get_play_characters'],Prinz,Prinz,,[],Der Prinz
-5-4_10_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,42.0,"[0, 5, 4, 1, 0, 523563311209037, 3, 895, 42]","Based on the character network analysis, Foppendorf is the protagonist. He has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector: 0.523563311209037), appears in 3 scenes, has 895 words, and 42 speech acts - significantly more than any other character.
+5-1_7_extracted-info.json,5-1,True,True,['get_play_characters'],prinz,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Der Prinz
+5-4_10_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",42.0,"[0, 5, 4, 1, 0, 523563311209037, 3, 895, 42]","Based on the character network analysis, Foppendorf is the protagonist. He has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector: 0.523563311209037), appears in 3 scenes, has 895 words, and 42 speech acts - significantly more than any other character.
 
 Foppendorf"
-5-3_2_extracted-info.json,5-3,False,False,[],,Marinelli,,[],
+5-3_2_extracted-info.json,5-3,False,False,[],,marinelli,,[],
 4-2_10_extracted-info.json,4-2,True,,"['get_corpus', 'get_corpus_metadata']",5,Open question,5.0,"[68, 1880, 1900, 1880, 38, 4, 8, 8, 13, 3, 1890, 40, 1, 7, 2, 12, 4, 1880, 38, 1890, 40, 1, 7, 2, 5]","Now I'll analyze this data to calculate the mean percentage of female speakers over time:
 
 Based on the metadata from the Swedish Drama Corpus (68 plays, 1880-1900), I'll calculate the percentage of female speakers for each play, group by decade, and find the trend.
@@ -388,7 +388,7 @@ Based on the metadata from the Swedish Drama Corpus (68 plays, 1880-1900), I'll 
 
 The increase is modest (about +1.7 percentage points), with female characters representing roughly **2 out of 5 speakers** throughout the period."
 1-1_2_extracted-info.json,1-1,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-1_6_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",Marinelli,Marinelli,449.0,"[9, 0, 449]","Based on the network metrics, Marinelli has the highest degree (9) and eigenvector centrality (0.449), making him the most important character in the network. However, let me verify the character name:
+5-1_6_extracted-info.json,5-1,True,True,"['get_play_characters', 'get_play_metrics']",marinelli,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",449.0,"[9, 0, 449]","Based on the network metrics, Marinelli has the highest degree (9) and eigenvector centrality (0.449), making him the most important character in the network. However, let me verify the character name:
 
 Marinelli"
 4-2_6_extracted-info.json,4-2,True,,['get_corpus_metadata'],40,Open question,40.0,"[1880, 1884, 38, 6, 1885, 1889, 39, 8, 1890, 1894, 33, 8, 1895, 1900, 39, 4, 38, 40, 1880, 1900, 34, 1890, 1894, 33, 40]","Now I'll calculate the mean percentage of female speakers for each play and group by year:
@@ -554,7 +554,7 @@ The corpus with the highest mean number of characters is ""gersh"" (German Shake
 
 gersh"
 1-4_4_extracted-info.json,1-4,True,True,['get_play_metadata'],129,103,129.0,[129],129
-5-4_1_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,,[],Foppendorf
+5-4_1_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
 4-3_8_extracted-info.json,4-3,True,,['get_corpus_metadata'],1895,Open question,1895.0,"[67, 1880, 1900, 1880, 1885, 4, 7, 6, 2, 43, 1886, 1890, 5, 4, 6, 5, 45, 1891, 1895, 5, 8, 5, 0, 54, 1896, 1900, 5, 1, 3, 9, 57, 20, 43, 57, 1891, 1895]","Now let me analyze this data by organizing plays by their normalized year and calculating gender distributions.
 
 **Gender Distribution in Swedish Drama Over Time:**
@@ -740,7 +740,7 @@ The highest mean number of characters is in the German Shakespeare Corpus (gersh
 
 gersh"
 1-4_6_extracted-info.json,1-4,True,True,['get_play_metadata'],136,103,136.0,[136],136
-5-4_2_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,,[],Foppendorf
+5-4_2_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
 2-1_10_extracted-info.json,2-1,False,False,[],,9.19,,[],
 1-4_7_extracted-info.json,1-4,True,True,['get_play_metadata'],130,103,130.0,[130],130
 3-1_6_extracted-info.json,3-1,True,True,['get_corpora'],gersh,gersh,39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]","Now I'll calculate the mean number of characters for each corpus:
@@ -776,15 +776,15 @@ gersh"
 The highest mean number of characters is gersh (German Shakespeare Drama Corpus) with 39.39 characters per play.
 
 gersh"
-5-4_3_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,,[],Foppendorf
-5-2_8_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-4_3_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
+5-2_8_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 1-4_1_extracted-info.json,1-4,True,True,['get_play_metadata'],141,103,141.0,[141],141
 4-1_8_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-4_5_extracted-info.json,5-4,True,True,"['get_corpora', 'get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,895.0,"[0, 5, 4, 1, 0, 523, 3, 42, 895]","Based on the network analysis, Foppendorf is the protagonist character - he has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector centrality: 0.523), the most scenes (3), the most speech acts (42), and the most words spoken (895).
+5-4_5_extracted-info.json,5-4,True,True,"['get_corpora', 'get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",895.0,"[0, 5, 4, 1, 0, 523, 3, 42, 895]","Based on the network analysis, Foppendorf is the protagonist character - he has the highest centrality metrics (betweenness: 0.5, degree: 4, closeness: 1, eigenvector centrality: 0.523), the most scenes (3), the most speech acts (42), and the most words spoken (895).
 
 Foppendorf"
 4-1_9_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-2_9_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_9_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 3-1_1_extracted-info.json,3-1,True,True,['get_corpora'],gersh,gersh,39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]","Now I'll calculate the mean number of characters for each corpus:
 
 - als: 375/30 = 12.5
@@ -818,10 +818,10 @@ Foppendorf"
 The highest mean is gersh (German Shakespeare) with 39.39 characters per play.
 
 gersh"
-5-4_4_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,42.0,"[4, 0, 5, 895, 42]","Based on the character network metrics, Foppendorf appears to be the protagonist, as he has the highest degree (4), betweenness (0.5), and the most words (895) and speech acts (42) in the play.
+5-4_4_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",42.0,"[4, 0, 5, 895, 42]","Based on the character network metrics, Foppendorf appears to be the protagonist, as he has the highest degree (4), betweenness (0.5), and the most words (895) and speech acts (42) in the play.
 
 Foppendorf"
-5-4_7_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata', 'get_play_metrics']",Foppendorf,Foppendorf,,[],Foppendorf
+5-4_7_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata', 'get_play_metrics']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
 3-1_2_extracted-info.json,3-1,True,True,['get_corpora'],gersh,gersh,39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 0, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 0, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]","Now I'll calculate the mean number of characters for each corpus by dividing the total characters by the number of plays:
 
 - als: 375/30 = 12.5
@@ -856,7 +856,7 @@ The corpus with the highest mean number of characters is gersh (German Shakespea
 
 gersh"
 1-4_3_extracted-info.json,1-4,True,True,['get_play_metadata'],105,103,105.0,[105],105
-5-4_6_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,,[],Foppendorf
+5-4_6_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
 1-4_2_extracted-info.json,1-4,True,True,['get_play_metadata'],106,103,106.0,[106],106
 3-1_3_extracted-info.json,3-1,True,True,['get_corpora'],gersh,gersh,39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 26, 95, 5, 19, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 48, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]","Now I'll calculate the mean number of characters for each corpus:
 
@@ -891,7 +891,7 @@ gersh"
 The highest mean is German Shakespeare Drama Corpus (gersh) with 39.39 characters per play.
 
 gersh"
-5-2_6_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_6_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 3-2_10_extracted-info.json,3-2,False,False,[],,fre,,[],
 4-1_6_extracted-info.json,4-1,False,False,[],,Open question,,[],
 1-2_2_extracted-info.json,1-2,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
@@ -905,7 +905,7 @@ gersh"
 
 **Key trend:** Female representation increased from approximately one-third in the early 1880s to over 40% by the 1890s. Notably, some plays by female authors (Leffler, Indebetou) featured majority female casts, while male-dominated plays remained common. The overall tendency shows a gradual rise in female character roles throughout the period."
 4-1_7_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-2_7_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_7_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 4-3_3_extracted-info.json,4-3,True,,"['get_corpus_metadata', 'get_api_feature']",1890,Open question,1890.0,"[67, 1880, 1900, 1880, 1885, 60, 70, 3, 1, 2, 1, 1886, 1892, 50, 50, 1893, 1900, 100, 54, 1880, 1890]","Based on the Swedish drama corpus metadata (67 plays from 1880-1900), here's the gender distribution trend:
 
 **Early Period (1880-1885):** Male-dominated with ~60-70% male speakers
@@ -920,7 +920,7 @@ gersh"
 
 **Overall trend:** Swedish drama shifts from male-dominated (1880s) → increasingly gender-balanced (1890s) → with notable female-centered plays by century's end, reflecting Scandinavian literary modernism's engagement with gender roles."
 1-2_3_extracted-info.json,1-2,True,True,"['get_play_characters', 'get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
-5-4_9_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters', 'get_play_metadata']",Foppendorf,Foppendorf,3.0,"[4, 5, 0, 5, 42, 895, 3]","Based on the character data, Foppendorf is the protagonist. He has:
+5-4_9_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters', 'get_play_metadata']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",3.0,"[4, 5, 0, 5, 42, 895, 3]","Based on the character data, Foppendorf is the protagonist. He has:
 - The highest degree (4) and weighted degree (5) in the network
 - The highest betweenness centrality (0.5)
 - The most speech acts (42)
@@ -929,8 +929,8 @@ gersh"
 
 Foppendorf"
 4-1_4_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-2_4_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
-5-4_8_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",Foppendorf,Foppendorf,,[],Foppendorf
+5-2_4_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
+5-4_8_extracted-info.json,5-4,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",foppendorf,"[""dratmann"", ""foppendorf"", ""christinchen"", ""charlottchen"", ""glocke""]",,[],Foppendorf
 4-3_1_extracted-info.json,4-3,True,,"['get_corpus_metadata', 'get_api_feature_list']",1900,Open question,1900.0,"[1880, 1890, 60, 40, 1887, 5, 4, 1891, 1900, 50, 55, 45, 50, 1885, 16, 19, 1891, 8, 0, 1889, 11, 11, 1880, 1900]","Based on the Swedish drama corpus metadata, here's the gender distribution trend:
 
 ## Gender Distribution in Swedish Drama Over Time
@@ -950,7 +950,7 @@ Foppendorf"
 
 **Overall Pattern:** A pronounced **shift toward gender balance/female prominence from 1880s to 1900**, driven largely by female playwrights (Leffler, Benedictsson) and those writing comedies and domestic dramas."
 1-2_1_extracted-info.json,1-2,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
-5-2_5_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_5_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 4-1_5_extracted-info.json,4-1,False,False,[],,Open question,,[],
 1-2_7_extracted-info.json,1-2,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_characters']",103,103,103.0,[103],103
 4-3_7_extracted-info.json,4-3,True,,['get_corpus_metadata'],1900,Open question,1900.0,"[1880, 1890, 2, 1, 2, 3, 5, 15, 1890, 1900, 19, 16, 1880, 1900, 1880, 1900]","Based on the Swedish drama corpus metadata, here's the gender distribution trend over time:
@@ -963,7 +963,7 @@ Foppendorf"
 
 The corpus spans 1880-1900, showing Swedish drama gradually incorporated more female voices over two decades."
 4-1_3_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-2_3_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_3_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 4-3_6_extracted-info.json,4-3,True,,['get_corpus_metadata'],60,Open question,60.0,"[1880, 1900, 1880, 1900, 1880, 1885, 15, 5, 1881, 7, 6, 1900, 1884, 9, 9, 1885, 1891, 3, 10, 1883, 16, 19, 1885, 0, 8, 1891, 1891, 1900, 11, 10, 1889, 4, 10, 1896, 60]","Now let me organize this data to show the gender distribution trends over time:
 
 **Gender Distribution in Swedish Drama Over Time (1880-1900)**
@@ -984,9 +984,9 @@ The Swedish drama corpus spans 1880-1900 with notable gender trends:
 
 **Overall Pattern:** From heavily male-dominated (60%+ male speakers in early period) to more balanced representation, particularly in comedies and works by women authors."
 1-2_6_extracted-info.json,1-2,True,True,"['get_plays_in_corpus_by_title_helper', 'get_play_metadata']",103,103,103.0,[103],103
-5-2_2_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_2_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 4-1_2_extracted-info.json,4-1,False,False,[],,Open question,,[],
-5-2_1_extracted-info.json,5-2,True,True,['get_play_characters'],Emilia,Emilia,,[],Emilia
+5-2_1_extracted-info.json,5-2,True,True,['get_play_characters'],emilia,"[""der kammerdiener"", ""camillo_rota"", ""angelo"", ""battista"", ""camillo rota"", ""appiani"", ""marinelli"", ""der_kammerdiener"", ""der prinz"", ""prinz"", ""pirro"", ""der_prinz"", ""emilia"", ""kammerdiener"", ""claudia"", ""conti"", ""orsina"", ""odoardo""]",,[],Emilia
 3-1_9_extracted-info.json,3-1,True,True,['get_corpora'],gersh,gersh,39.0,"[375, 30, 12, 5, 762, 40, 19, 5, 140, 8, 17, 5, 56, 3, 18, 67, 3406, 205, 16, 61, 364, 11, 33, 9, 2175, 186, 11, 69, 11145, 753, 14, 80, 17830, 1940, 9, 19, 16125, 750, 21, 5, 1497, 38, 39, 39, 449, 40, 11, 23, 1718, 74, 23, 22, 754, 37, 20, 38, 1768, 157, 11, 27, 95, 5, 19, 586, 50, 11, 72, 667, 30, 22, 23, 405, 36, 11, 25, 3707, 212, 17, 49, 1433, 37, 38, 73, 580, 25, 23, 2, 769, 68, 11, 31, 30, 3, 10, 93, 4, 23, 25, 1132, 47, 24, 9, 119, 8, 14, 88, 39, 39]","Now I need to calculate the mean number of characters for each corpus by dividing the total characters by the number of plays.
 
 Let me calculate the mean for each corpus:
