@@ -1,0 +1,13 @@
+ID,model,successful_requests,correct_answers,successful_but_incorrect
+1-1,Haiku-4-5,10,10,0
+1-2,Haiku-4-5,10,9,1
+1-3,Haiku-4-5,10,7,3
+1-4,Haiku-4-5,10,0,10
+1-5,Haiku-4-5,10,10,0
+2-1,Haiku-4-5,0,0,0
+3-1,Haiku-4-5,10,10,0
+3-2,Haiku-4-5,1,0,1
+5-1,Haiku-4-5,10,10,0
+5-2,Haiku-4-5,10,10,0
+5-3,Haiku-4-5,8,5,3
+5-4,Haiku-4-5,10,10,0
