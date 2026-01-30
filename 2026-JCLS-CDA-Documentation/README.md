@@ -12,16 +12,16 @@ This directory contains the documentation, curated benchmark data, scripts, and 
 
 The folder is organized along the logical structure of the article:
 
-01_introduction/ Documentation of example interactions
-04_manual_evaluation/ Manual (phenomenological) evaluation experiments
-05_automated_evaluation/ Automated evaluation pipeline, benchmarks, and results
+chapter_01_introduction/ Documentation of example interactions
+chapter_04_manual_evaluation/ Manual (phenomenological) evaluation experiments
+chapter_05_automated_evaluation/ Automated evaluation pipeline, benchmarks, and results
 
 
 Each chapter folder contains documentation and artefacts relevant to the corresponding section of the paper.
 
 ---
 
-## Manual Evaluation (`04_manual_evaluation`)
+## Manual Evaluation (`chapter_04_manual_evaluation`)
 
 This section documents the **manual evaluation (manuEva)** experiments conducted via the Claude Desktop interface with a locally running DraCor MCP server.
 
@@ -34,7 +34,7 @@ These materials form the empirical basis for Chapter 4 of the article.
 
 ---
 
-## Automated Evaluation (`05_automated_evaluation`)
+## Automated Evaluation (`chapter_05_automated_evaluation`)
 
 This section contains the full documentation of the **automated evaluation pipeline (autoEva)** described in Chapter 5.
 
