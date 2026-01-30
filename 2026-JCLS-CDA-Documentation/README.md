@@ -62,9 +62,6 @@ This section contains the full documentation of the **automated evaluation pipel
 - `notebooks/`  
   Evaluation and validation notebooks used during analysis.
 
-- `figures/`  
-  Plots and diagrams used in the article.
-
 ### Evaluation criteria
 
 The automated evaluation operationalizes the following criteria:
