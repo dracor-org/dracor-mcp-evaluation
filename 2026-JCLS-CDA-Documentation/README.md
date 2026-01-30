@@ -12,10 +12,9 @@ This directory contains the documentation, curated benchmark data, scripts, and 
 
 The folder is organized along the logical structure of the article:
 
-chapter_01_introduction/ Documentation of example interactions
-chapter_04_manual_evaluation/ Manual (phenomenological) evaluation experiments
-chapter_05_automated_evaluation/ Automated evaluation pipeline, benchmarks, and results
-
+- `chapter_01_introduction/` — documented example interactions
+- `chapter_04_manual_evaluation/` — manual (phenomenological) evaluation experiments
+- `chapter_05_automated_evaluation/` — automated evaluation pipeline, curated benchmarks, and results
 
 Each chapter folder contains documentation and artefacts relevant to the corresponding section of the paper.
 
@@ -55,6 +54,8 @@ This section contains the full documentation of the **automated evaluation pipel
 
 - `results_analysed/`  
   Efficiency evaluation results for the two tested LLMs (Claude Sonnet-4, Haiku-4-5) that were derived from the `results/`. Corresponds to 5.2 in the paper.
+  - `results_analysed/tables/` — tabular data used for the evaluation
+  - `results_analysed/images/` — plots and diagrams used in the article
 
 -  `results_validated` 
   Reliability evaluation data for the two tested LLMs (Claude Sonnet-4, Haiku-4-5). This is the data used for the evaluation in part 5.2.3 in the paper.
@@ -62,20 +63,49 @@ This section contains the full documentation of the **automated evaluation pipel
 - `notebooks/`  
   Evaluation and validation notebooks used during analysis.
 
-### Evaluation criteria
+## Structure outline:
 
-The automated evaluation operationalizes the following criteria:
-
-- **Answer Correctness** (direct and normalized match)
-- **Tool-Call Efficiency**
-  - Tool-Call Complexity
-  - Tool-Call Absurdity
-  - Tool-Call Error Rate
-- **Tool-Use Reliability**, operationalized via
-  - number of unique answers
-  - Gini impurity as a diversity measure
-
-The evaluation focuses on *reliability-as-repeatability*, not on semantic plausibility.
+2026-JCLS-CDA-Documentation/
+├── README.md
+├── chapter_01_introduction/
+│   └── 0_DraCor-MCP-Paper_2025-07.md
+├── chapter_04_manual_evaluation/
+│   ├── documentation/
+│   │   ├── *.md (interaction transcripts + researcher notes)
+│   │   └── *.html (exported artifacts produced during some runs)
+│   └── notebook/
+│       └── MCP-Evaluation_Paper-Version.ipynb
+└── chapter_05_automated_evaluation/
+    ├── README.md
+    ├── pyproject.toml
+    ├── uv.lock
+    ├── scripts/
+    │   ├── automatic_prompting.py
+    │   └── test.py
+    ├── curated_data/
+    │   ├── autoEva_correct-answers.csv
+    │   ├── autoEva_possible-tools.csv
+    │   ├── autoEva_reference-tool-chains.json
+    │   └── autoEva_expected-tool-chain-length.json
+    ├── results/
+    │   ├── sonnet-4/
+    │   │   ├── raw/ (full model responses)
+    │   │   ├── extracted/ (structured info extracted from responses)
+    │   │   └── documentation/ (run logs)
+    │   └── haiku-4-5/
+    │       ├── raw/
+    │       ├── extracted/
+    │       └── documentation/
+    ├── results_validated/
+    │   ├── sonnet-4/ (validated tool-chains / efficiency metrics per run)
+    │   └── haiku-4-5/
+    ├── results_analysed/
+    │   ├── tables/ (aggregated CSV tables for analysis)
+    │   └── images/ (exported plots/figures used for reporting)
+    └── notebooks/
+        ├── Automatic_MCP_Eval.ipynb
+        ├── Validate_Tool_Chains.ipynb
+        └── Analyse_Responses.ipynb
 
 ---
 
