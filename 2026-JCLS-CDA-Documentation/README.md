@@ -20,7 +20,7 @@ Each chapter folder contains documentation and artefacts relevant to the corresp
 
 ---
 
-## Manual Evaluation (`chapter_04_manual_evaluation`)
+## Manual Evaluation ([chapter_04_manual_evaluation](chapter_04_manual_evaluation))
 
 This section documents the **manual evaluation (manuEva)** experiments conducted via the Claude Desktop interface with a locally running DraCor MCP server.
 
@@ -33,11 +33,11 @@ These materials form the empirical basis for Chapter 4 of the article.
 
 ---
 
-## Automated Evaluation (`chapter_05_automated_evaluation`)
+## Automated Evaluation ([chapter_05_automated_evaluation](chapter_05_automated_evaluation))
 
 This section contains the full documentation of the **automated evaluation pipeline (autoEva)** described in Chapter 5.
 
-### Contents
+### Automated Evaluation Contents
 
 - `scripts/`  
   Python scripts used to run the evaluation, collect model responses, and compute metrics.
@@ -63,7 +63,7 @@ This section contains the full documentation of the **automated evaluation pipel
 - `notebooks/`  
   Evaluation and validation notebooks used during analysis.
 
-## Structure outline:
+## Full structure outline:
 
 ```text
 2026-JCLS-CDA-Documentation/
