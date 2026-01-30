@@ -27,7 +27,7 @@ This section documents the **manual evaluation (manuEva)** experiments conducted
 
 It includes:
 - Markdown transcripts of documented interactions
-- Commentary notes by domain experts
+- Commentary notes by the researchers
 - References to the evaluation criteria used in the paper (answer correctness, tool-call efficiency, tool-use reliability)
 
 These materials form the empirical basis for Chapter 4 of the article.
@@ -51,10 +51,13 @@ This section contains the full documentation of the **automated evaluation pipel
   - expected optimal tool-chain lengths
 
 - `results/`  
-  Model outputs and derived evaluation results for different LLMs (e.g. Claude Sonnet-4, Haiku-4-5).
+  Model outputs for the two tested LLMs (Claude Sonnet-4, Haiku-4-5).
+
+- `results_analysed/`  
+  Evaluation results for the two tested LLMs (Claude Sonnet-4, Haiku-4-5) that were derived from the `results/`.
 
 - `notebooks/`  
-  Exploratory and validation notebooks used during analysis.
+  The notebook that was used to obtain the s well as evaluation and validation notebooks used during analysis.
 
 - `figures/`  
   Plots and diagrams used in the article.
