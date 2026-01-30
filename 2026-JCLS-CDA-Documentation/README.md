@@ -124,12 +124,6 @@ Due to rapid changes in LLM tooling, exact reproduction may require version alig
 
 ---
 
-## Relation to archived versions
-
-A long-term archived version of this repository, including this documentation, will be deposited on **Zenodo** in connection with the final publication of the article.
-
----
-
 ## License
 
 Unless stated otherwise, documentation and code in this folder are released under **CC BY 4.0**.
