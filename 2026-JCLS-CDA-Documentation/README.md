@@ -65,6 +65,7 @@ This section contains the full documentation of the **automated evaluation pipel
 
 ## Structure outline:
 
+```text
 2026-JCLS-CDA-Documentation/
 ├── README.md
 ├── chapter_01_introduction/
@@ -106,6 +107,7 @@ This section contains the full documentation of the **automated evaluation pipel
         ├── Automatic_MCP_Eval.ipynb
         ├── Validate_Tool_Chains.ipynb
         └── Analyse_Responses.ipynb
+```
 
 ---
 
