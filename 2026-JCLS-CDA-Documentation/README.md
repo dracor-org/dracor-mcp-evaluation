@@ -54,10 +54,13 @@ This section contains the full documentation of the **automated evaluation pipel
   Model outputs for the two tested LLMs (Claude Sonnet-4, Haiku-4-5).
 
 - `results_analysed/`  
-  Evaluation results for the two tested LLMs (Claude Sonnet-4, Haiku-4-5) that were derived from the `results/`.
+  Efficiency evaluation results for the two tested LLMs (Claude Sonnet-4, Haiku-4-5) that were derived from the `results/`. Corresponds to 5.2 in the paper.
+
+-  `results_validated` 
+  Reliability evaluation data for the two tested LLMs (Claude Sonnet-4, Haiku-4-5). This is the data used for the evaluation in part 5.2.3 in the paper.
 
 - `notebooks/`  
-  The notebook that was used to obtain the s well as evaluation and validation notebooks used during analysis.
+  Evaluation and validation notebooks used during analysis.
 
 - `figures/`  
   Plots and diagrams used in the article.
